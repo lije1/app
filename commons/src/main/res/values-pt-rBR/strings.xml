@@ -946,7 +946,7 @@
     <string name="faq_1_text_commons">O mais provável é que você tenha movido o aplicativo para um cartão SD. Existe uma limitação do sistema Android que oculta os widgets de aplicativos fornecidos neste caso.
         A única solução é mover o aplicativo de volta para o Armazenamento Interno por meio das configurações do seu dispositivo.</string>
     <string name="faq_2_title_commons">Eu gostaria de apoiá-los, mas não posso doar dinheiro. Há algo mais que eu possa fazer?</string>
-    <string name="faq_2_text_commons">Sim, é claro. Você pode divulgar os aplicativos ou dar um bom feedback e avaliações. Você também pode ajudar traduzindo os aplicativos em um novo idioma, ou simplesmente atualizar algumas traduções existentes. O guia de tradução está &lt;a href=https://github.com/miad/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;neste site&lt;/a&gt; ou apenas contate-nos em &lt;a href=mailto:hello@miad.com&gt;hello@miad.com&lt;/a&gt; se tiver alguma dúvida.</string>
+    <string name="faq_2_text_commons">Sim, é claro. Você pode divulgar os aplicativos ou dar um bom feedback e avaliações. Você também pode ajudar traduzindo os aplicativos em um novo idioma, ou simplesmente atualizar algumas traduções existentes. O guia de tradução está &lt;a href=https://github.com/miad/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;neste site&lt;/a&gt; ou apenas contate-nos em &lt;a href=mailto:hello@hahuet.com&gt;hello@hahuet.com&lt;/a&gt; se tiver alguma dúvida.</string>
     <string name="faq_3_title_commons">Eu exclui alguns arquivos por engano, como posso recuperá-los?</string>
     <string name="faq_3_text_commons">Infelizmente, você não pode. Os arquivos são apagados instantaneamente após a caixa de diálogo de confirmação, não há lixeira disponível.</string>
     <string name="faq_4_title_commons">Eu não gosto das cores do widget, posso mudá-las?</string>
@@ -961,7 +961,7 @@
     <string name="faq_8_title_commons">Por que eu deveria atualizar para a versão Pro?</string>
     <string name="faq_8_text_commons">Como a versão do seu aplicativo não é mais atualizada, os erros que você talvez tenha encontrado nunca serão corrigidos. Também não haverá novas funções adicionadas. Você pode comprar a versão Pro no Google Play por uma pequena quantia em dinheiro.
         É um pagamento único, o que significa que, uma vez que você o compre, nunca precisará pagar novamente. Nem mesmo depois de adquirir um novo dispositivo. Se você não gostar da versão Pro, basta desinstalá-la em algumas horas e você receberá seu dinheiro automaticamente.
-        Se você quiser um reembolso a qualquer momento depois, basta entrar em contato conosco pelo e-mail hello@miad.com e você o receberá.</string>
+        Se você quiser um reembolso a qualquer momento depois, basta entrar em contato conosco pelo e-mail hello@hahuet.com e você o receberá.</string>
     <string name="faq_9_title_commons">Como posso selecionar múltiplos itens de uma só vez?</string>
     <string name="faq_9_text_commons">Existem muitas formas de fazer isso. A primeira delas é acessar o modo de seleção, mantendo um item pressionado e clicando nos demais para selecioná-los. A segunda maneira é similar à seleção de itens com um mouse em um computador: basta acessar o modo de seleção, mantendo um item pressionado e arrastar seu dedo para selecionar os demais itens. A terceira forma de seleção múltipla é manter um item pressionado e, em seguida, pressionar outro para que todos os itens entre eles sejam selecionados. Caso deseje selecionar todos os itens, basta manter um deles pressionado e clicar na contagem de itens selecionados no canto superior esquerdo da tela. Essa ação selecionará ou removerá a seleção de todos os itens.</string>
     <string name="faq_10_title_commons">Comprei o aplicativo, mas não consigo realizar seu download em outro dispositivo.</string>
@@ -971,7 +971,7 @@
     <string name="translation">Tradução</string>
     <string name="development">Desenvolvimento</string>
     <string name="other_help">Other help</string>
-    <string name="contributors_label">Esta lista contém todas as pessoas que ajudaram notavelmente qualquer aplicativo dentro da suíte Simple Mobile Tools, não apenas este. As traduções são feitas por voluntários, avise-nos se você também quiser ajudar. O guia de tradução está &lt;a href=https://github.com/miad/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;neste site&lt;/a&gt; ou simplesmente contate-nos em &lt;a href=mailto:hello@miad.com&gt;hello@miad.com&lt;/a&gt; se tiver alguma dúvida. Obrigado a todos os colaboradores e outros apoiadores!</string>
+    <string name="contributors_label">Esta lista contém todas as pessoas que ajudaram notavelmente qualquer aplicativo dentro da suíte Simple Mobile Tools, não apenas este. As traduções são feitas por voluntários, avise-nos se você também quiser ajudar. O guia de tradução está &lt;a href=https://github.com/miad/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;neste site&lt;/a&gt; ou simplesmente contate-nos em &lt;a href=mailto:hello@hahuet.com&gt;hello@hahuet.com&lt;/a&gt; se tiver alguma dúvida. Obrigado a todos os colaboradores e outros apoiadores!</string>
     <string name="translation_arabic">Arabic</string>
     <string name="translation_azerbaijani">Azerbaijani</string>
     <string name="translation_bengali">Bengali</string>
@@ -1109,7 +1109,7 @@
     </plurals>
     <!-- Google Play listing -->
     <string name="deprecated_app">OBSOLETO: Esta versão do app não recebe mais atualizações. Por favor obtenha a versão Pro em https://play.google.com/store/apps/details?id=com.miad.xxx.pro</string>
-    <string name="pro_app_refund">Não se esqueça de que se você desinstalar um aplicativo pago em menos de duas horas você receberá reembolsado(a) automaticamente. Se você precisar de um reembolso após isso, entre em contato conosco através hello@miad.com. Isso torna tudo mais fácil se você quiser testar :)</string>
+    <string name="pro_app_refund">Não se esqueça de que se você desinstalar um aplicativo pago em menos de duas horas você receberá reembolsado(a) automaticamente. Se você precisar de um reembolso após isso, entre em contato conosco através hello@hahuet.com. Isso torna tudo mais fácil se você quiser testar :)</string>
     <!-- Description of our developer profile on Google Play, it can have max 140 characters -->
     <string name="developer_description">Um grupo de aplicativos simples, open source, para Android com widgets personalizados, sem anúncios nem permissões desnecessárias.</string>
 </resources>

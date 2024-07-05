@@ -34,6 +34,6 @@ class UpgradeToProDialog(val activity: Activity) {
     }
 
     private fun moreInfo() {
-        activity.launchViewIntent("https://miad.com/upgrade_to_pro")
+        activity.launchViewIntent("https://hahuet.com/upgrade_to_pro")
     }
 }

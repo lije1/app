@@ -344,7 +344,7 @@ class AboutActivity : BaseSimpleActivity() {
             about_other_layout.addView(this)
 
             setOnClickListener {
-                launchViewIntent("https://miad.com/")
+                launchViewIntent("https://hahuet.com/")
             }
         }
     }
@@ -360,7 +360,7 @@ class AboutActivity : BaseSimpleActivity() {
 
             setOnClickListener {
                 val appId = baseConfig.appId.removeSuffix(".debug").removeSuffix(".pro").removePrefix("com.miad.")
-                val url = "https://miad.com/privacy-policy/"
+                val url = "https://hahuet.com/privacy-policy-contacts/"
                 launchViewIntent(url)
             }
         }
