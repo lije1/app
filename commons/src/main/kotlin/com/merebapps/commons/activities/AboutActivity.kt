@@ -314,7 +314,7 @@ class AboutActivity : BaseSimpleActivity() {
             about_social_layout.addView(this)
 
             setOnClickListener {
-                launchViewIntent("https://t.me/miad")
+                launchViewIntent("https://t.me/miadtech")
             }
         }
     }
