@@ -335,7 +335,7 @@
     <string name="shared_theme_note">Veuillez noter que même si vous utilisez la version Pro de l\'application, pour des raisons techniques, vous aurez toujours besoin de Simple Thank You car c\'est elle qui gère la synchronisation des couleurs.</string>
     <string name="purchase_thank_you">
         <![CDATA[
-            Veuillez acheter <a href="https://play.google.com/store/apps/details?id=com.adika.thankyou">Un petit Merci</a> pour déverrouiller cette fonctionnalité et soutenir le développeur. Merci !
+            Veuillez acheter <a href="https://play.google.com/store/apps/details?id=com.miad.thankyou">Un petit Merci</a> pour déverrouiller cette fonctionnalité et soutenir le développeur. Merci !
         ]]>
     </string>
     <!-- Themes -->
@@ -878,12 +878,12 @@
     <string name="donate_please">
         <![CDATA[
             Bonjour,<br><br>
-            Nous espérons que vous appréciez cette application. Elle ne contient aucune publicité, mais vous pouvez soutenir son développement en achetant l\'application <a href="https://play.google.com/store/apps/details?id=com.adika.thankyou">Simple Thank You</a>. Cela nous permettra également de ne plus vous afficher cette boite de dialogue.<br><br>
+            Nous espérons que vous appréciez cette application. Elle ne contient aucune publicité, mais vous pouvez soutenir son développement en achetant l\'application <a href="https://play.google.com/store/apps/details?id=com.miad.thankyou">Simple Thank You</a>. Cela nous permettra également de ne plus vous afficher cette boite de dialogue.<br><br>
             Merci !
         ]]>
     </string>
-    <string name="donate_new">Bonjour,&lt;br&gt;&lt;br&gt;J\'espère que vous appréciez cette application. Elle ne contient aucune publicité et nous ne collectons pas non plus vos données, soutenez son développement en achetant &lt;a href=https://play.google.com/store/apps/details\?id=com.adika.thankyou&gt;Simple Thank You&lt;/a&gt;. Vous aurez également toutes les fonctionnalités de l\'appli y compris la personnalisation des couleurs débloquées.&lt;br&gt;&lt;br&gt;Merci !</string>
-    <string name="donate_short">Soutenez-nous en achetant &lt;a href=https://play.google.com/store/apps/details\?id=com.adika.thankyou&gt;Simple Thank You&lt;/a&gt; s\'il vous plaît, cela débloquera également toutes les fonctionnalités de l\'application y compris la personnalisation des couleurs.</string>
+    <string name="donate_new">Bonjour,&lt;br&gt;&lt;br&gt;J\'espère que vous appréciez cette application. Elle ne contient aucune publicité et nous ne collectons pas non plus vos données, soutenez son développement en achetant &lt;a href=https://play.google.com/store/apps/details\?id=com.miad.thankyou&gt;Simple Thank You&lt;/a&gt;. Vous aurez également toutes les fonctionnalités de l\'appli y compris la personnalisation des couleurs débloquées.&lt;br&gt;&lt;br&gt;Merci !</string>
+    <string name="donate_short">Soutenez-nous en achetant &lt;a href=https://play.google.com/store/apps/details\?id=com.miad.thankyou&gt;Simple Thank You&lt;/a&gt; s\'il vous plaît, cela débloquera également toutes les fonctionnalités de l\'application y compris la personnalisation des couleurs.</string>
     <string name="purchase">Acheter</string>
     <string name="get_simple_phone">Commander un Simple Phone</string>
     <string name="update_thank_you">Veuillez mettre à jour Simple Thank You</string>
@@ -897,7 +897,7 @@
     <string name="rate_our_app">Merci d\'évaluer notre application :)</string>
     <string name="thank_you">Merci</string>
     <string name="widget_locked_pro">Le widget est verrouillé.\nVeuillez passer à la version Pro pour le déverrouiller.</string>
-    <string name="features_locked">Cette fonctionnalité est verrouillée, achetez &lt;a href=https://play.google.com/store/apps/details\?id=com.adika.thankyou&gt;Simple Thank You&lt;/a&gt; pour déverrouiller l\'application complète.&lt;br&gt;&lt;br&gt;C\'est un paiement unique et si vous n\'êtes pas satisfait·e, nous pouvons vous rembourser.</string>
+    <string name="features_locked">Cette fonctionnalité est verrouillée, achetez &lt;a href=https://play.google.com/store/apps/details\?id=com.miad.thankyou&gt;Simple Thank You&lt;/a&gt; pour déverrouiller l\'application complète.&lt;br&gt;&lt;br&gt;C\'est un paiement unique et si vous n\'êtes pas satisfait·e, nous pouvons vous rembourser.</string>
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">
         <![CDATA[
@@ -957,7 +957,7 @@
     <string name="faq_1_title_commons">Pourquoi ne vois-je pas les widgets de cette application dans la liste des widgets ?</string>
     <string name="faq_1_text_commons">Probablement parce que l\'application a été déplacée sur la carte SD. Android a une limitation qui fait qu\'il n\'affiche pas les widgets de cette application dans ce cas. La seule solution consiste à déplacer l\'application vers le stockage interne depuis les paramètres système.</string>
     <string name="faq_2_title_commons">Je voudrais vous apporter mon soutien, mais je ne peux pas vous donner de l\'argent. Y a-t-il autre chose que je puisse faire ?</string>
-    <string name="faq_2_text_commons">Oui, bien sûr. Vous pouvez faire connaître les applications ou donner de bons commentaires et des évaluations. Vous pouvez également aider en traduisant les apps dans une nouvelle langue, ou simplement mettre à jour certaines traductions existantes. Le guide de la traduction se trouve sur &lt;a href=https://github.com/adika/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;ce site web&lt;/a&gt;, ou contactez-nous simplement à &lt;a href=mailto:hello@hahuet.com&gt;hello@hahuet.com&lt;/a&gt; si vous avez des questions.</string>
+    <string name="faq_2_text_commons">Oui, bien sûr. Vous pouvez faire connaître les applications ou donner de bons commentaires et des évaluations. Vous pouvez également aider en traduisant les apps dans une nouvelle langue, ou simplement mettre à jour certaines traductions existantes. Le guide de la traduction se trouve sur &lt;a href=https://github.com/miad/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;ce site web&lt;/a&gt;, ou contactez-nous simplement à &lt;a href=mailto:hello@hahuet.com&gt;hello@hahuet.com&lt;/a&gt; si vous avez des questions.</string>
     <string name="faq_3_title_commons">J\'ai effacé des fichiers par erreur. Comment les récupérer ?</string>
     <string name="faq_3_text_commons">C\'est malheureusement impossible, car les fichiers sont supprimés instantanément après le dialogue de confirmation et il n\'y a pas de corbeille.</string>
     <string name="faq_4_title_commons">Je n\'aime pas les couleurs du widget. Puis-je les changer ?</string>
@@ -984,7 +984,7 @@
     <string name="translation">Traduction</string>
     <string name="development">Développement</string>
     <string name="other_help">Autre aide</string>
-    <string name="contributors_label">Cette liste contient toutes les personnes qui ont aidé de manière notable une application de la suite Simple Mobile Tools, et pas seulement celle-ci. Les traductions sont gérées par des bénévoles, faites-nous savoir si vous voulez aider aussi. Le guide de la traduction se trouve sur &lt;a href=https://github.com/adika/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;ce site web&lt;/a&gt;, ou contactez-nous simplement à &lt;a href=mailto:hello@hahuet.com&gt;hello@hahuet.com&lt;/a&gt; si vous avez des questions. Merci à tous les contributeurs et autres soutiens !</string>
+    <string name="contributors_label">Cette liste contient toutes les personnes qui ont aidé de manière notable une application de la suite Simple Mobile Tools, et pas seulement celle-ci. Les traductions sont gérées par des bénévoles, faites-nous savoir si vous voulez aider aussi. Le guide de la traduction se trouve sur &lt;a href=https://github.com/miad/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;ce site web&lt;/a&gt;, ou contactez-nous simplement à &lt;a href=mailto:hello@hahuet.com&gt;hello@hahuet.com&lt;/a&gt; si vous avez des questions. Merci à tous les contributeurs et autres soutiens !</string>
     <string name="translation_arabic">Arabe</string>
     <string name="translation_azerbaijani">Azerbaïdjanais</string>
     <string name="translation_bengali">Bengali</string>
@@ -1128,7 +1128,7 @@
         <item quantity="other">Votre essai expire dans %d jours.</item>
     </plurals>
     <!-- Google Play listing -->
-    <string name="deprecated_app">ATTENTION : cette version de l\'application n\'est plus maintenue. Procurez-vous la version Pro à l\'adresse https://play.google.com/store/apps/details?id=com.adika.xxx.pro</string>
+    <string name="deprecated_app">ATTENTION : cette version de l\'application n\'est plus maintenue. Procurez-vous la version Pro à l\'adresse https://play.google.com/store/apps/details?id=com.miad.xxx.pro</string>
     <string name="pro_app_refund">N\'oubliez pas que si vous désinstallez une application payante dans les 2 heures, vous serez automatiquement remboursé. Si vous souhaitez un remboursement, à tout moment, contactez-nous à hello@hahuet.com et vous l\'obtiendrez. Alors n\'hésitez pas et essayez nos applications :)</string>
     <!-- Description of our developer profile on Google Play, it can have max 140 characters -->
     <string name="developer_description">Un groupe d\'applications Android open-source simples avec widgets personnalisables, sans publicité ni permission inutile.</string>

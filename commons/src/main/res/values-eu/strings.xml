@@ -348,7 +348,7 @@
     <string name="shared_theme_note">Kontuan hartu Pro bertsioa erabili arren, Simple Thank You izaten jarraitu behar duzula arrazoi teknikoak direla eta. Kolorearen sinkronizazioaz arduratzen da.</string>
     <string name="purchase_thank_you">
         <![CDATA[
-            Erosi <a href="https://play.google.com/store/apps/details?id=com.adika.thankyou">Simple Thank You</a> funtzio hau desblokeatzeko eta garatzaileari laguntzeko. Eskerrik asko!
+            Erosi <a href="https://play.google.com/store/apps/details?id=com.miad.thankyou">Simple Thank You</a> funtzio hau desblokeatzeko eta garatzaileari laguntzeko. Eskerrik asko!
         ]]>
     </string>
 
@@ -854,19 +854,19 @@
     <string name="privacy_policy">Privacy policy</string>
     <string name="version_placeholder">Version %s</string>
     <string name="hello">Hello :)</string>
-    <string name="about_footer">Made with &#10084;&#65039; in Slovakia</string>
+    <string name="about_footer">Made with &#10084;&#65039; in ET</string>
     <string name="additional_info">Informazio gehigarria</string>
     <string name="app_version">Aplikazioaren bertsioa: %s</string>
     <string name="device_os">Gailuaren SE: %s</string>
     <string name="donate_please">
         <![CDATA[
             Hello,<br><br>
-            hope you are enjoying the app. It contains no ads, please support its development by purchasing the <a href="https://play.google.com/store/apps/details?id=com.adika.thankyou">Simple Thank You</a> app, it will also prevent this dialog from showing up again.<br><br>
+            hope you are enjoying the app. It contains no ads, please support its development by purchasing the <a href="https://play.google.com/store/apps/details?id=com.miad.thankyou">Simple Thank You</a> app, it will also prevent this dialog from showing up again.<br><br>
             Thank you!
         ]]>
     </string>
-    <string name="donate_new">Hello,&lt;br&gt;&lt;br&gt;hope you are enjoying the app. It contains no ads and we aren\'t collecting your data either, please support its development by purchasing &lt;a href=https://play.google.com/store/apps/details?id=com.adika.thankyou&gt;Simple Thank You&lt;/a&gt;. You will also have all app features including color customization unlocked.&lt;br&gt;&lt;br&gt;Thank you!</string>
-    <string name="donate_short">Support us by purchasing &lt;a href=https://play.google.com/store/apps/details?id=com.adika.thankyou&gt;Simple Thank You&lt;/a&gt; please, it will also unlock all app features including color customization.</string>
+    <string name="donate_new">Hello,&lt;br&gt;&lt;br&gt;hope you are enjoying the app. It contains no ads and we aren\'t collecting your data either, please support its development by purchasing &lt;a href=https://play.google.com/store/apps/details?id=com.miad.thankyou&gt;Simple Thank You&lt;/a&gt;. You will also have all app features including color customization unlocked.&lt;br&gt;&lt;br&gt;Thank you!</string>
+    <string name="donate_short">Support us by purchasing &lt;a href=https://play.google.com/store/apps/details?id=com.miad.thankyou&gt;Simple Thank You&lt;/a&gt; please, it will also unlock all app features including color customization.</string>
     <string name="purchase">Erosi</string>
     <string name="get_simple_phone">Get Simple Phone</string>
     <string name="update_thank_you">Eguneratu Simple Thank You azken bertsiora</string>
@@ -880,7 +880,7 @@
     <string name="rate_our_app">Baloratu gure aplikazioa, mesedez :)</string>
     <string name="thank_you">Eskerrik asko</string>
     <string name="widget_locked_pro">Trepeta blokeatuta dago.\nEguneratu Pro bertsiora desblokeatzeko.</string>
-    <string name="features_locked">This feature is locked, please purchase &lt;a href=https://play.google.com/store/apps/details?id=com.adika.thankyou&gt;Simple Thank You&lt;/a&gt; for unlocking the full app.&lt;br&gt;&lt;br&gt;It is a one time payment only and if you won\'t be satisfied, we can refund you.</string>
+    <string name="features_locked">This feature is locked, please purchase &lt;a href=https://play.google.com/store/apps/details?id=com.miad.thankyou&gt;Simple Thank You&lt;/a&gt; for unlocking the full app.&lt;br&gt;&lt;br&gt;It is a one time payment only and if you won\'t be satisfied, we can refund you.</string>
 
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">
@@ -949,7 +949,7 @@
     <string name="faq_2_text_commons">
         <![CDATA[
             Yes, of course. You can spread the word about the apps or give good feedback and ratings. You can also help by translating the apps in a new language, or just update some existing translations.
-            The guide to translating is at <a href="https://github.com/adika/General-Discussion#how-can-i-suggest-an-edit-to-a-file">this website</a>, or just contact us at <a href="mailto:hello@hahuet.com">hello@hahuet.com</a> if you have any questions.
+            The guide to translating is at <a href="https://github.com/miad/General-Discussion#how-can-i-suggest-an-edit-to-a-file">this website</a>, or just contact us at <a href="mailto:hello@hahuet.com">hello@hahuet.com</a> if you have any questions.
         ]]>
     </string>
     <string name="faq_3_title_commons">I deleted some files by mistake, how can I recover them?</string>
@@ -982,7 +982,7 @@
     <string name="contributors_label">
         <![CDATA[
             This list contains everyone that noticeably helped any app within the Simple Mobile Tools suite, not only this one. Translations are handled by volunteers,
-            let us know if you want to help too. The guide to translating is at <a href="https://github.com/adika/General-Discussion#how-can-i-suggest-an-edit-to-a-file">this website</a>, or just contact us at <a href="mailto:hello@hahuet.com">hello@hahuet.com</a> if you have any questions.
+            let us know if you want to help too. The guide to translating is at <a href="https://github.com/miad/General-Discussion#how-can-i-suggest-an-edit-to-a-file">this website</a>, or just contact us at <a href="mailto:hello@hahuet.com">hello@hahuet.com</a> if you have any questions.
             Thanks to all contributors and other supporters!
         ]]>
     </string>
@@ -1131,7 +1131,7 @@
     </plurals>
 
     <!-- Google Play listing -->
-    <string name="deprecated_app">DEPRECATED: This version of the app is no longer maintained, get the Pro version at https://play.google.com/store/apps/details?id=com.adika.xxx.pro</string>
+    <string name="deprecated_app">DEPRECATED: This version of the app is no longer maintained, get the Pro version at https://play.google.com/store/apps/details?id=com.miad.xxx.pro</string>
     <string name="pro_app_refund">Don\'t forget that if you uninstall any paid app within 2 hours, you will automatically be refunded. If you want a refund anytime later, just contact us at hello@hahuet.com and you will get it. That makes it easy to try it out :)</string>
 
     <!-- Description of our developer profile on Google Play, it can have max 140 characters -->
