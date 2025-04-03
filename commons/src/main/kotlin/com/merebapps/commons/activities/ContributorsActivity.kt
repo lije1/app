@@ -1,15 +1,15 @@
-package com.miad.commons.activities
+package com.adika.commons.activities
 
 import android.os.Bundle
 import android.text.Html
 import android.text.method.LinkMovementMethod
 import android.view.LayoutInflater
-import com.miad.commons.R
-import com.miad.commons.extensions.*
-import com.miad.commons.helpers.APP_ICON_IDS
-import com.miad.commons.helpers.APP_LAUNCHER_NAME
-import com.miad.commons.helpers.NavigationIcon
-import com.miad.commons.models.LanguageContributor
+import com.adika.commons.R
+import com.adika.commons.extensions.*
+import com.adika.commons.helpers.APP_ICON_IDS
+import com.adika.commons.helpers.APP_LAUNCHER_NAME
+import com.adika.commons.helpers.NavigationIcon
+import com.adika.commons.models.LanguageContributor
 import kotlinx.android.synthetic.main.activity_contributors.*
 import kotlinx.android.synthetic.main.item_language_contributor.view.*
 

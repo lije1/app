@@ -1,13 +1,13 @@
-package com.miad.commons.dialogs
+package com.adika.commons.dialogs
 
 import android.view.View
 import android.view.WindowManager
 import androidx.appcompat.app.AlertDialog
 import com.google.android.material.appbar.MaterialToolbar
-import com.miad.commons.R
-import com.miad.commons.activities.BaseSimpleActivity
-import com.miad.commons.extensions.*
-import com.miad.commons.interfaces.LineColorPickerListener
+import com.adika.commons.R
+import com.adika.commons.activities.BaseSimpleActivity
+import com.adika.commons.extensions.*
+import com.adika.commons.interfaces.LineColorPickerListener
 import kotlinx.android.synthetic.main.dialog_line_color_picker.view.*
 
 class LineColorPickerDialog(

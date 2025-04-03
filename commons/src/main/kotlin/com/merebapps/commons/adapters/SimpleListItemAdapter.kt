@@ -1,4 +1,4 @@
-package com.miad.commons.adapters
+package com.adika.commons.adapters
 
 import android.app.Activity
 import android.view.View
@@ -6,9 +6,9 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.miad.commons.R
-import com.miad.commons.extensions.*
-import com.miad.commons.models.SimpleListItem
+import com.adika.commons.R
+import com.adika.commons.extensions.*
+import com.adika.commons.models.SimpleListItem
 import kotlinx.android.synthetic.main.item_simple_list.view.*
 
 open class SimpleListItemAdapter(val activity: Activity, val onItemClicked: (SimpleListItem) -> Unit) :

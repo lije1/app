@@ -1,15 +1,15 @@
-package com.miad.commons.dialogs
+package com.adika.commons.dialogs
 
 import android.view.LayoutInflater
 import android.view.WindowManager
 import androidx.appcompat.app.AlertDialog
-import com.miad.commons.R
-import com.miad.commons.activities.BaseSimpleActivity
-import com.miad.commons.adapters.RenameAdapter
-import com.miad.commons.extensions.*
-import com.miad.commons.helpers.RENAME_PATTERN
-import com.miad.commons.helpers.RENAME_SIMPLE
-import com.miad.commons.views.MyViewPager
+import com.adika.commons.R
+import com.adika.commons.activities.BaseSimpleActivity
+import com.adika.commons.adapters.RenameAdapter
+import com.adika.commons.extensions.*
+import com.adika.commons.helpers.RENAME_PATTERN
+import com.adika.commons.helpers.RENAME_SIMPLE
+import com.adika.commons.views.MyViewPager
 import kotlinx.android.synthetic.main.dialog_rename.view.*
 
 class RenameDialog(val activity: BaseSimpleActivity, val paths: ArrayList<String>, val useMediaFileExtension: Boolean, val callback: () -> Unit) {

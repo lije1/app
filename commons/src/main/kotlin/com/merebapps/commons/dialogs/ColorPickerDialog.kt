@@ -1,4 +1,4 @@
-package com.miad.commons.dialogs
+package com.adika.commons.dialogs
 
 import android.app.Activity
 import android.graphics.Color
@@ -10,10 +10,10 @@ import android.view.WindowManager
 import android.widget.EditText
 import android.widget.ImageView
 import androidx.appcompat.app.AlertDialog
-import com.miad.commons.R
-import com.miad.commons.extensions.*
-import com.miad.commons.helpers.isQPlus
-import com.miad.commons.views.ColorPickerSquare
+import com.adika.commons.R
+import com.adika.commons.extensions.*
+import com.adika.commons.helpers.isQPlus
+import com.adika.commons.views.ColorPickerSquare
 import kotlinx.android.synthetic.main.dialog_color_picker.view.*
 import java.util.*
 

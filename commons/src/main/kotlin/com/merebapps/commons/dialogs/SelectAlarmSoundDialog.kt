@@ -1,4 +1,4 @@
-package com.miad.commons.dialogs
+package com.adika.commons.dialogs
 
 import android.content.ActivityNotFoundException
 import android.content.Intent
@@ -9,13 +9,13 @@ import android.widget.RadioGroup
 import androidx.appcompat.app.AlertDialog
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
-import com.miad.commons.R
-import com.miad.commons.activities.BaseSimpleActivity
-import com.miad.commons.extensions.*
-import com.miad.commons.helpers.SILENT
-import com.miad.commons.models.AlarmSound
-import com.miad.commons.models.RadioItem
-import com.miad.commons.views.MyCompatRadioButton
+import com.adika.commons.R
+import com.adika.commons.activities.BaseSimpleActivity
+import com.adika.commons.extensions.*
+import com.adika.commons.helpers.SILENT
+import com.adika.commons.models.AlarmSound
+import com.adika.commons.models.RadioItem
+import com.adika.commons.views.MyCompatRadioButton
 import kotlinx.android.synthetic.main.dialog_select_alarm_sound.view.*
 
 class SelectAlarmSoundDialog(

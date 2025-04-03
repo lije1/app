@@ -1,4 +1,4 @@
-package com.miad.commons.activities
+package com.adika.commons.activities
 
 import android.content.ActivityNotFoundException
 import android.content.Intent
@@ -10,12 +10,12 @@ import android.view.LayoutInflater
 import android.view.View
 import androidx.core.net.toUri
 import androidx.core.view.isEmpty
-import com.miad.commons.R
-import com.miad.commons.dialogs.ConfirmationAdvancedDialog
-import com.miad.commons.dialogs.RateStarsDialog
-import com.miad.commons.extensions.*
-import com.miad.commons.helpers.*
-import com.miad.commons.models.FAQItem
+import com.adika.commons.R
+import com.adika.commons.dialogs.ConfirmationAdvancedDialog
+import com.adika.commons.dialogs.RateStarsDialog
+import com.adika.commons.extensions.*
+import com.adika.commons.helpers.*
+import com.adika.commons.models.FAQItem
 import kotlinx.android.synthetic.main.activity_about.*
 import kotlinx.android.synthetic.main.item_about.view.*
 
@@ -135,7 +135,7 @@ class AboutActivity : BaseSimpleActivity() {
         val separator = "------------------------------"
         val body = "$appVersion$newline$deviceOS$newline$separator$newline$newline"
 
-        val address = if (packageName.startsWith("com.miad")) {
+        val address = if (packageName.startsWith("com.adika")) {
             getString(R.string.my_email)
         } else {
             getString(R.string.my_email)
@@ -251,10 +251,10 @@ class AboutActivity : BaseSimpleActivity() {
             about_social_layout.addView(this)
 
             setOnClickListener {
-                var link = "https://www.facebook.com/miad"
+                var link = "https://www.facebook.com/adika"
                 try {
                     packageManager.getPackageInfo("com.facebook.katana", 0)
-                    link = "fb://page/miad"
+                    link = "fb://page/adika"
                 } catch (ignored: Exception) {
                 }
 
@@ -275,7 +275,7 @@ class AboutActivity : BaseSimpleActivity() {
             about_social_layout.addView(this)
 
             setOnClickListener {
-                launchViewIntent("https://github.com/miad")
+                launchViewIntent("https://github.com/adika")
             }
         }
     }
@@ -292,7 +292,7 @@ class AboutActivity : BaseSimpleActivity() {
             about_social_layout.addView(this)
 
             setOnClickListener {
-                launchViewIntent("https://www.reddit.com/r/miad")
+                launchViewIntent("https://www.reddit.com/r/adika")
             }
         }
     }
@@ -359,7 +359,7 @@ class AboutActivity : BaseSimpleActivity() {
             about_other_layout.addView(this)
 
             setOnClickListener {
-                val appId = baseConfig.appId.removeSuffix(".debug").removeSuffix(".pro").removePrefix("com.miad.")
+                val appId = baseConfig.appId.removeSuffix(".debug").removeSuffix(".pro").removePrefix("com.adika.")
                 val url = "https://hahuet.com/privacy-policy-contacts/"
                 launchViewIntent(url)
             }

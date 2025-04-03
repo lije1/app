@@ -1,3 +1,3 @@
-package com.miad.commons.models
+package com.adika.commons.models
 
 data class MyTheme(val label: String, val textColorId: Int, val backgroundColorId: Int, val primaryColorId: Int, val appIconColorId: Int)

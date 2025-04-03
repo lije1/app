@@ -1,13 +1,13 @@
-package com.miad.commons.adapters
+package com.adika.commons.adapters
 
 import android.util.TypedValue
 import android.view.Menu
 import android.view.View
 import android.view.ViewGroup
-import com.miad.commons.R
-import com.miad.commons.activities.BaseSimpleActivity
-import com.miad.commons.extensions.getTextSize
-import com.miad.commons.views.MyRecyclerView
+import com.adika.commons.R
+import com.adika.commons.activities.BaseSimpleActivity
+import com.adika.commons.extensions.getTextSize
+import com.adika.commons.views.MyRecyclerView
 import kotlinx.android.synthetic.main.filepicker_favorite.view.*
 
 class FilepickerFavoritesAdapter(

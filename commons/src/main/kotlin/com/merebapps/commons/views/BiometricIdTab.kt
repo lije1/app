@@ -1,13 +1,13 @@
-package com.miad.commons.views
+package com.adika.commons.views
 
 import android.content.Context
 import android.util.AttributeSet
 import androidx.biometric.auth.AuthPromptHost
 import androidx.constraintlayout.widget.ConstraintLayout
-import com.miad.commons.extensions.*
-import com.miad.commons.helpers.DARK_GREY
-import com.miad.commons.interfaces.HashListener
-import com.miad.commons.interfaces.SecurityTab
+import com.adika.commons.extensions.*
+import com.adika.commons.helpers.DARK_GREY
+import com.adika.commons.interfaces.HashListener
+import com.adika.commons.interfaces.SecurityTab
 import kotlinx.android.synthetic.main.tab_biometric_id.view.*
 
 class BiometricIdTab(context: Context, attrs: AttributeSet) : ConstraintLayout(context, attrs), SecurityTab {

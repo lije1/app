@@ -1,10 +1,10 @@
-package com.miad.commons.extensions
+package com.adika.commons.extensions
 
 import android.content.ContentValues
 import android.provider.MediaStore
-import com.miad.commons.R
-import com.miad.commons.activities.BaseSimpleActivity
-import com.miad.commons.models.FileDirItem
+import com.adika.commons.R
+import com.adika.commons.activities.BaseSimpleActivity
+import com.adika.commons.models.FileDirItem
 import java.io.File
 import java.io.InputStream
 import java.io.OutputStream

@@ -1,15 +1,15 @@
-package com.miad.commons.dialogs
+package com.adika.commons.dialogs
 
 import android.app.Activity
 import android.text.Html
 import androidx.appcompat.app.AlertDialog
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions
-import com.miad.commons.R
-import com.miad.commons.activities.BaseSimpleActivity
-import com.miad.commons.extensions.getAlertDialogBuilder
-import com.miad.commons.extensions.humanizePath
-import com.miad.commons.extensions.setupDialogStuff
+import com.adika.commons.R
+import com.adika.commons.activities.BaseSimpleActivity
+import com.adika.commons.extensions.getAlertDialogBuilder
+import com.adika.commons.extensions.humanizePath
+import com.adika.commons.extensions.setupDialogStuff
 import kotlinx.android.synthetic.main.dialog_write_permission.view.*
 import kotlinx.android.synthetic.main.dialog_write_permission_otg.view.*
 

@@ -1,4 +1,4 @@
-package com.miad.commons.extensions
+package com.adika.commons.extensions
 
 import android.Manifest
 import android.annotation.TargetApi
@@ -45,10 +45,10 @@ import androidx.loader.content.CursorLoader
 import com.github.ajalt.reprint.core.Reprint
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
-import com.miad.commons.R
-import com.miad.commons.helpers.*
-import com.miad.commons.models.AlarmSound
-import com.miad.commons.models.BlockedNumber
+import com.adika.commons.R
+import com.adika.commons.helpers.*
+import com.adika.commons.models.AlarmSound
+import com.adika.commons.models.BlockedNumber
 import java.io.File
 import java.text.SimpleDateFormat
 import java.util.*
@@ -261,7 +261,7 @@ fun Context.launchActivityIntent(intent: Intent) {
 
 fun Context.getFilePublicUri(file: File, applicationId: String): Uri {
     // for images/videos/gifs try getting a media content uri first, like content://media/external/images/media/438
-    // if media content uri is null, get our custom uri like content://com.miad.gallery.provider/external_files/emulated/0/DCIM/IMG_20171104_233915.jpg
+    // if media content uri is null, get our custom uri like content://com.adika.gallery.provider/external_files/emulated/0/DCIM/IMG_20171104_233915.jpg
     var uri = if (file.isMediaFile()) {
         getMediaContentUri(file.absolutePath)
     } else {
@@ -444,7 +444,7 @@ fun Context.getUriMimeType(path: String, newUri: Uri): String {
     return mimeType
 }
 
-fun Context.isThankYouInstalled() = isPackageInstalled("com.miad.thankyou")
+fun Context.isThankYouInstalled() = isPackageInstalled("com.adika.thankyou")
 
 fun Context.isOrWasThankYouInstalled(): Boolean {
     return when {
@@ -458,7 +458,7 @@ fun Context.isOrWasThankYouInstalled(): Boolean {
     }
 }
 
-fun Context.isAProApp() = packageName.startsWith("com.miad.") && packageName.removeSuffix(".debug").endsWith(".pro")
+fun Context.isAProApp() = packageName.startsWith("com.adika.") && packageName.removeSuffix(".debug").endsWith(".pro")
 
 fun Context.getCustomizeColorsString(): String {
     val textId = if (isOrWasThankYouInstalled()) {
@@ -653,11 +653,11 @@ fun Context.saveExifRotation(exif: ExifInterface, degrees: Int) {
 
 fun Context.getLaunchIntent() = packageManager.getLaunchIntentForPackage(baseConfig.appId)
 
-fun Context.getCanAppBeUpgraded() = proPackages.contains(baseConfig.appId.removeSuffix(".debug").removePrefix("com.miad."))
+fun Context.getCanAppBeUpgraded() = proPackages.contains(baseConfig.appId.removeSuffix(".debug").removePrefix("com.adika."))
 
 fun Context.getProUrl() = "https://play.google.com/store/apps/details?id=${baseConfig.appId.removeSuffix(".debug")}.pro"
 
-fun Context.getStoreUrl() = "https://play.google.com/store/apps/developer?id=miad+tech"
+fun Context.getStoreUrl() = "https://play.google.com/store/apps/developer?id=adika+tech"
 
 fun Context.getTimeFormat() = if (baseConfig.use24HourFormat) TIME_FORMAT_24 else TIME_FORMAT_12
 
@@ -948,9 +948,9 @@ fun Context.getCornerRadius() = resources.getDimension(R.dimen.rounded_corner_ra
 
 // we need the Default Dialer functionality only in Simple Dialer and in Simple Contacts for now
 fun Context.isDefaultDialer(): Boolean {
-    return if (!packageName.startsWith("com.miad.contacts") && !packageName.startsWith("com.miad.dialer")) {
+    return if (!packageName.startsWith("com.adika.contacts") && !packageName.startsWith("com.adika.dialer")) {
         true
-    } else if ((packageName.startsWith("com.miad.contacts") || packageName.startsWith("com.miad.dialer")) && isQPlus()) {
+    } else if ((packageName.startsWith("com.adika.contacts") || packageName.startsWith("com.adika.dialer")) && isQPlus()) {
         val roleManager = getSystemService(RoleManager::class.java)
         roleManager!!.isRoleAvailable(RoleManager.ROLE_DIALER) && roleManager.isRoleHeld(RoleManager.ROLE_DIALER)
     } else {

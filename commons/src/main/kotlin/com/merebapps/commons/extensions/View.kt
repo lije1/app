@@ -1,9 +1,9 @@
-package com.miad.commons.extensions
+package com.adika.commons.extensions
 
 import android.view.HapticFeedbackConstants
 import android.view.View
 import android.view.ViewTreeObserver
-import com.miad.commons.helpers.SHORT_ANIMATION_DURATION
+import com.adika.commons.helpers.SHORT_ANIMATION_DURATION
 
 fun View.beInvisibleIf(beInvisible: Boolean) = if (beInvisible) beInvisible() else beVisible()
 

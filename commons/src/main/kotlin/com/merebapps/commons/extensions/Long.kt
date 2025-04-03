@@ -1,4 +1,4 @@
-package com.miad.commons.extensions
+package com.adika.commons.extensions
 
 import android.content.Context
 import android.text.format.DateFormat

@@ -1,4 +1,4 @@
-package com.miad.commons.adapters
+package com.adika.commons.adapters
 
 import android.content.Context
 import android.util.SparseArray
@@ -7,14 +7,14 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.biometric.auth.AuthPromptHost
 import androidx.viewpager.widget.PagerAdapter
-import com.miad.commons.R
-import com.miad.commons.helpers.PROTECTION_FINGERPRINT
-import com.miad.commons.helpers.PROTECTION_PATTERN
-import com.miad.commons.helpers.PROTECTION_PIN
-import com.miad.commons.helpers.isRPlus
-import com.miad.commons.interfaces.HashListener
-import com.miad.commons.interfaces.SecurityTab
-import com.miad.commons.views.MyScrollView
+import com.adika.commons.R
+import com.adika.commons.helpers.PROTECTION_FINGERPRINT
+import com.adika.commons.helpers.PROTECTION_PATTERN
+import com.adika.commons.helpers.PROTECTION_PIN
+import com.adika.commons.helpers.isRPlus
+import com.adika.commons.interfaces.HashListener
+import com.adika.commons.interfaces.SecurityTab
+import com.adika.commons.views.MyScrollView
 
 class PasswordTypesAdapter(
     private val context: Context,

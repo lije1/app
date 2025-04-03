@@ -1,19 +1,19 @@
-package com.miad.commons.dialogs
+package com.adika.commons.dialogs
 
 import android.app.Activity
-import com.miad.commons.R
-import com.miad.commons.R.id.conflict_dialog_radio_keep_both
-import com.miad.commons.R.id.conflict_dialog_radio_merge
-import com.miad.commons.R.id.conflict_dialog_radio_skip
-import com.miad.commons.extensions.baseConfig
-import com.miad.commons.extensions.beVisibleIf
-import com.miad.commons.extensions.getAlertDialogBuilder
-import com.miad.commons.extensions.setupDialogStuff
-import com.miad.commons.helpers.CONFLICT_KEEP_BOTH
-import com.miad.commons.helpers.CONFLICT_MERGE
-import com.miad.commons.helpers.CONFLICT_OVERWRITE
-import com.miad.commons.helpers.CONFLICT_SKIP
-import com.miad.commons.models.FileDirItem
+import com.adika.commons.R
+import com.adika.commons.R.id.conflict_dialog_radio_keep_both
+import com.adika.commons.R.id.conflict_dialog_radio_merge
+import com.adika.commons.R.id.conflict_dialog_radio_skip
+import com.adika.commons.extensions.baseConfig
+import com.adika.commons.extensions.beVisibleIf
+import com.adika.commons.extensions.getAlertDialogBuilder
+import com.adika.commons.extensions.setupDialogStuff
+import com.adika.commons.helpers.CONFLICT_KEEP_BOTH
+import com.adika.commons.helpers.CONFLICT_MERGE
+import com.adika.commons.helpers.CONFLICT_OVERWRITE
+import com.adika.commons.helpers.CONFLICT_SKIP
+import com.adika.commons.models.FileDirItem
 import kotlinx.android.synthetic.main.dialog_file_conflict.view.*
 
 class FileConflictDialog(

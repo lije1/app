@@ -1,16 +1,16 @@
-package com.miad.commons.adapters
+package com.adika.commons.adapters
 
 import android.view.*
 import android.widget.PopupMenu
-import com.miad.commons.R
-import com.miad.commons.activities.BaseSimpleActivity
-import com.miad.commons.extensions.copyToClipboard
-import com.miad.commons.extensions.deleteBlockedNumber
-import com.miad.commons.extensions.getPopupMenuTheme
-import com.miad.commons.extensions.getProperTextColor
-import com.miad.commons.interfaces.RefreshRecyclerViewListener
-import com.miad.commons.models.BlockedNumber
-import com.miad.commons.views.MyRecyclerView
+import com.adika.commons.R
+import com.adika.commons.activities.BaseSimpleActivity
+import com.adika.commons.extensions.copyToClipboard
+import com.adika.commons.extensions.deleteBlockedNumber
+import com.adika.commons.extensions.getPopupMenuTheme
+import com.adika.commons.extensions.getProperTextColor
+import com.adika.commons.interfaces.RefreshRecyclerViewListener
+import com.adika.commons.models.BlockedNumber
+import com.adika.commons.views.MyRecyclerView
 import kotlinx.android.synthetic.main.item_manage_blocked_number.view.*
 
 class ManageBlockedNumbersAdapter(

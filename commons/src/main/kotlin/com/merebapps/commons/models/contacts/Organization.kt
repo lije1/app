@@ -1,4 +1,4 @@
-package com.miad.commons.models.contacts
+package com.adika.commons.models.contacts
 
 data class Organization(var company: String, var jobPosition: String) {
     fun isEmpty() = company.isEmpty() && jobPosition.isEmpty()

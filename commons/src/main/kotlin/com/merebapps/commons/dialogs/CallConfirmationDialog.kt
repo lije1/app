@@ -1,12 +1,12 @@
-package com.miad.commons.dialogs
+package com.adika.commons.dialogs
 
 import android.view.animation.AnimationUtils
-import com.miad.commons.R
-import com.miad.commons.activities.BaseSimpleActivity
-import com.miad.commons.extensions.applyColorFilter
-import com.miad.commons.extensions.getAlertDialogBuilder
-import com.miad.commons.extensions.getProperTextColor
-import com.miad.commons.extensions.setupDialogStuff
+import com.adika.commons.R
+import com.adika.commons.activities.BaseSimpleActivity
+import com.adika.commons.extensions.applyColorFilter
+import com.adika.commons.extensions.getAlertDialogBuilder
+import com.adika.commons.extensions.getProperTextColor
+import com.adika.commons.extensions.setupDialogStuff
 import kotlinx.android.synthetic.main.dialog_call_confirmation.view.*
 
 class CallConfirmationDialog(val activity: BaseSimpleActivity, val callee: String, private val callback: () -> Unit) {

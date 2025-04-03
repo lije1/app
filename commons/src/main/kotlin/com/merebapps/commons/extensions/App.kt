@@ -1,7 +1,7 @@
-package com.miad.commons.extensions
+package com.adika.commons.extensions
 
 import android.app.Application
-import com.miad.commons.helpers.isNougatPlus
+import com.adika.commons.helpers.isNougatPlus
 import java.util.*
 
 fun Application.checkUseEnglish() {

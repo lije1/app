@@ -1,20 +1,20 @@
-package com.miad.commons.dialogs
+package com.adika.commons.dialogs
 
 import android.app.Activity
 import android.text.Html
 import android.text.method.LinkMovementMethod
-import com.miad.commons.R
-import com.miad.commons.extensions.getAlertDialogBuilder
-import com.miad.commons.extensions.launchViewIntent
-import com.miad.commons.extensions.setupDialogStuff
+import com.adika.commons.R
+import com.adika.commons.extensions.getAlertDialogBuilder
+import com.adika.commons.extensions.launchViewIntent
+import com.adika.commons.extensions.setupDialogStuff
 import kotlinx.android.synthetic.main.dialog_new_apps_icons.view.*
 
 class NewAppsIconsDialog(val activity: Activity) {
     init {
         val view = activity.layoutInflater.inflate(R.layout.dialog_new_apps_icons, null).apply {
-            val dialerUrl = "https://play.google.com/store/apps/details?id=com.miad.dialer"
-            val smsMessengerUrl = "https://play.google.com/store/apps/details?id=com.miad.smsmessenger"
-            val voiceRecorderUrl = "https://play.google.com/store/apps/details?id=com.miad.voicerecorder"
+            val dialerUrl = "https://play.google.com/store/apps/details?id=com.adika.dialer"
+            val smsMessengerUrl = "https://play.google.com/store/apps/details?id=com.adika.smsmessenger"
+            val voiceRecorderUrl = "https://play.google.com/store/apps/details?id=com.adika.voicerecorder"
 
             val text = String.format(
                 activity.getString(R.string.new_app),

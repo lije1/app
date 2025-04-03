@@ -1,4 +1,4 @@
-package com.miad.commons.dialogs
+package com.adika.commons.dialogs
 
 import android.os.Environment
 import android.os.Parcelable
@@ -8,14 +8,14 @@ import androidx.appcompat.app.AlertDialog
 import androidx.coordinatorlayout.widget.CoordinatorLayout
 import androidx.documentfile.provider.DocumentFile
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.miad.commons.R
-import com.miad.commons.activities.BaseSimpleActivity
-import com.miad.commons.adapters.FilepickerFavoritesAdapter
-import com.miad.commons.adapters.FilepickerItemsAdapter
-import com.miad.commons.extensions.*
-import com.miad.commons.helpers.ensureBackgroundThread
-import com.miad.commons.models.FileDirItem
-import com.miad.commons.views.Breadcrumbs
+import com.adika.commons.R
+import com.adika.commons.activities.BaseSimpleActivity
+import com.adika.commons.adapters.FilepickerFavoritesAdapter
+import com.adika.commons.adapters.FilepickerItemsAdapter
+import com.adika.commons.extensions.*
+import com.adika.commons.helpers.ensureBackgroundThread
+import com.adika.commons.models.FileDirItem
+import com.adika.commons.views.Breadcrumbs
 import kotlinx.android.synthetic.main.dialog_filepicker.view.*
 import java.io.File
 

@@ -1,13 +1,13 @@
-package com.miad.commons.views
+package com.adika.commons.views
 
 import android.content.Context
 import android.content.res.ColorStateList
 import android.util.AttributeSet
 import com.google.android.material.textfield.TextInputLayout
-import com.miad.commons.extensions.adjustAlpha
-import com.miad.commons.extensions.value
-import com.miad.commons.helpers.HIGHER_ALPHA
-import com.miad.commons.helpers.MEDIUM_ALPHA
+import com.adika.commons.extensions.adjustAlpha
+import com.adika.commons.extensions.value
+import com.adika.commons.helpers.HIGHER_ALPHA
+import com.adika.commons.helpers.MEDIUM_ALPHA
 
 class MyTextInputLayout : TextInputLayout {
     constructor(context: Context) : super(context)

@@ -1,4 +1,4 @@
-package com.miad.commons.extensions
+package com.adika.commons.extensions
 
 import android.text.Editable
 import android.text.style.BackgroundColorSpan

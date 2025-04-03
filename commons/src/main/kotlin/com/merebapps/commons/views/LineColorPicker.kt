@@ -1,14 +1,14 @@
-package com.miad.commons.views
+package com.adika.commons.views
 
 import android.content.Context
 import android.util.AttributeSet
 import android.view.LayoutInflater
 import android.view.MotionEvent
 import android.widget.LinearLayout
-import com.miad.commons.R
-import com.miad.commons.extensions.isRTLLayout
-import com.miad.commons.extensions.onGlobalLayout
-import com.miad.commons.interfaces.LineColorPickerListener
+import com.adika.commons.R
+import com.adika.commons.extensions.isRTLLayout
+import com.adika.commons.extensions.onGlobalLayout
+import com.adika.commons.interfaces.LineColorPickerListener
 import java.util.*
 
 class LineColorPicker(context: Context, attrs: AttributeSet) : LinearLayout(context, attrs) {

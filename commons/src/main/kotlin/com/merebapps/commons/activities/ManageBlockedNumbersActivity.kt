@@ -1,4 +1,4 @@
-package com.miad.commons.activities
+package com.adika.commons.activities
 
 import android.app.Activity
 import android.content.ActivityNotFoundException
@@ -6,16 +6,16 @@ import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
 import android.widget.Toast
-import com.miad.commons.R
-import com.miad.commons.adapters.ManageBlockedNumbersAdapter
-import com.miad.commons.dialogs.AddBlockedNumberDialog
-import com.miad.commons.dialogs.ExportBlockedNumbersDialog
-import com.miad.commons.dialogs.FilePickerDialog
-import com.miad.commons.extensions.*
-import com.miad.commons.helpers.*
-import com.miad.commons.helpers.BlockedNumbersExporter.ExportResult
-import com.miad.commons.interfaces.RefreshRecyclerViewListener
-import com.miad.commons.models.BlockedNumber
+import com.adika.commons.R
+import com.adika.commons.adapters.ManageBlockedNumbersAdapter
+import com.adika.commons.dialogs.AddBlockedNumberDialog
+import com.adika.commons.dialogs.ExportBlockedNumbersDialog
+import com.adika.commons.dialogs.FilePickerDialog
+import com.adika.commons.extensions.*
+import com.adika.commons.helpers.*
+import com.adika.commons.helpers.BlockedNumbersExporter.ExportResult
+import com.adika.commons.interfaces.RefreshRecyclerViewListener
+import com.adika.commons.models.BlockedNumber
 import kotlinx.android.synthetic.main.activity_manage_blocked_numbers.*
 import java.io.FileOutputStream
 import java.io.OutputStream
@@ -40,7 +40,7 @@ class ManageBlockedNumbersActivity : BaseSimpleActivity(), RefreshRecyclerViewLi
         updateTextColors(manage_blocked_numbers_wrapper)
         updatePlaceholderTexts()
 
-        val blockTitleRes = if (baseConfig.appId.startsWith("com.miad.dialer")) R.string.block_unknown_calls else R.string.block_unknown_messages
+        val blockTitleRes = if (baseConfig.appId.startsWith("com.adika.dialer")) R.string.block_unknown_calls else R.string.block_unknown_messages
 
         block_unknown.apply {
             setText(blockTitleRes)
@@ -262,7 +262,7 @@ class ManageBlockedNumbersActivity : BaseSimpleActivity(), RefreshRecyclerViewLi
     }
 
     private fun maybeSetDefaultCallerIdApp() {
-        if (isQPlus() && baseConfig.appId.startsWith("com.miad.dialer")) {
+        if (isQPlus() && baseConfig.appId.startsWith("com.adika.dialer")) {
             setDefaultCallerIdApp()
         }
     }

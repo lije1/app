@@ -1,9 +1,9 @@
-package com.miad.commons.dialogs
+package com.adika.commons.dialogs
 
 import androidx.appcompat.app.AlertDialog
-import com.miad.commons.R
-import com.miad.commons.activities.BaseSimpleActivity
-import com.miad.commons.extensions.*
+import com.adika.commons.R
+import com.adika.commons.activities.BaseSimpleActivity
+import com.adika.commons.extensions.*
 import kotlinx.android.synthetic.main.dialog_rename_item.view.*
 
 class RenameItemDialog(val activity: BaseSimpleActivity, val path: String, val callback: (newPath: String) -> Unit) {

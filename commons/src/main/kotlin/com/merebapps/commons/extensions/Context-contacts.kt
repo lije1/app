@@ -1,4 +1,4 @@
-package com.miad.commons.extensions
+package com.adika.commons.extensions
 
 import android.content.Context
 import android.content.Intent
@@ -7,15 +7,15 @@ import android.net.Uri
 import android.os.Handler
 import android.os.Looper
 import android.provider.ContactsContract
-import com.miad.commons.R
-import com.miad.commons.databases.ContactsDatabase
-import com.miad.commons.helpers.*
-import com.miad.commons.interfaces.ContactsDao
-import com.miad.commons.interfaces.GroupsDao
-import com.miad.commons.models.contacts.Contact
-import com.miad.commons.models.contacts.ContactSource
-import com.miad.commons.models.contacts.Organization
-import com.miad.commons.models.contacts.SocialAction
+import com.adika.commons.R
+import com.adika.commons.databases.ContactsDatabase
+import com.adika.commons.helpers.*
+import com.adika.commons.interfaces.ContactsDao
+import com.adika.commons.interfaces.GroupsDao
+import com.adika.commons.models.contacts.Contact
+import com.adika.commons.models.contacts.ContactSource
+import com.adika.commons.models.contacts.Organization
+import com.adika.commons.models.contacts.SocialAction
 import java.io.File
 
 val Context.contactsDB: ContactsDao get() = ContactsDatabase.getInstance(applicationContext).ContactsDao()

@@ -1,10 +1,10 @@
-package com.miad.commons.dialogs
+package com.adika.commons.dialogs
 
 import android.app.Activity
-import com.miad.commons.R
-import com.miad.commons.extensions.baseConfig
-import com.miad.commons.extensions.getAlertDialogBuilder
-import com.miad.commons.extensions.setupDialogStuff
+import com.adika.commons.R
+import com.adika.commons.extensions.baseConfig
+import com.adika.commons.extensions.getAlertDialogBuilder
+import com.adika.commons.extensions.setupDialogStuff
 import kotlinx.android.synthetic.main.dialog_textview.view.*
 
 class FolderLockingNoticeDialog(val activity: Activity, val callback: () -> Unit) {

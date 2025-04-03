@@ -1,6 +1,6 @@
-package com.miad.commons.helpers
+package com.adika.commons.helpers
 
-import com.miad.commons.models.BlockedNumber
+import com.adika.commons.models.BlockedNumber
 import java.io.OutputStream
 import java.util.ArrayList
 

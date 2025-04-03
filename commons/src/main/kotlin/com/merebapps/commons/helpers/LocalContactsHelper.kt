@@ -1,17 +1,17 @@
-package com.miad.commons.helpers
+package com.adika.commons.helpers
 
 import android.content.Context
 import android.graphics.BitmapFactory
 import android.net.Uri
 import android.provider.ContactsContract.CommonDataKinds.Event
 import android.provider.MediaStore
-import com.miad.commons.extensions.contactsDB
-import com.miad.commons.extensions.getByteArray
-import com.miad.commons.extensions.getEmptyContact
-import com.miad.commons.models.SimpleContact
-import com.miad.commons.models.contacts.Contact
-import com.miad.commons.models.contacts.*
-import com.miad.commons.models.contacts.LocalContact
+import com.adika.commons.extensions.contactsDB
+import com.adika.commons.extensions.getByteArray
+import com.adika.commons.extensions.getEmptyContact
+import com.adika.commons.models.SimpleContact
+import com.adika.commons.models.contacts.Contact
+import com.adika.commons.models.contacts.*
+import com.adika.commons.models.contacts.LocalContact
 
 class LocalContactsHelper(val context: Context) {
     fun getAllContacts(favoritesOnly: Boolean = false): ArrayList<Contact> {

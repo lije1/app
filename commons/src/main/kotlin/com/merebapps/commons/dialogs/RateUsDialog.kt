@@ -1,10 +1,10 @@
-package com.miad.commons.dialogs
+package com.adika.commons.dialogs
 
 import android.app.Activity
 import android.content.ActivityNotFoundException
-import com.miad.commons.R
-import com.miad.commons.extensions.getStoreUrl
-import com.miad.commons.extensions.launchViewIntent
+import com.adika.commons.R
+import com.adika.commons.extensions.getStoreUrl
+import com.adika.commons.extensions.launchViewIntent
 
 class RateUsDialog(val activity: Activity) {
 

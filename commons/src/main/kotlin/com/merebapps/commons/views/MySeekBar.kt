@@ -1,9 +1,9 @@
-package com.miad.commons.views
+package com.adika.commons.views
 
 import android.content.Context
 import android.util.AttributeSet
 import android.widget.SeekBar
-import com.miad.commons.extensions.applyColorFilter
+import com.adika.commons.extensions.applyColorFilter
 
 class MySeekBar : SeekBar {
     constructor(context: Context) : super(context)

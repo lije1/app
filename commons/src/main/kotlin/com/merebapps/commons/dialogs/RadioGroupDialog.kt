@@ -1,4 +1,4 @@
-package com.miad.commons.dialogs
+package com.adika.commons.dialogs
 
 import android.app.Activity
 import android.view.View
@@ -6,11 +6,11 @@ import android.view.ViewGroup
 import android.widget.RadioButton
 import android.widget.RadioGroup
 import androidx.appcompat.app.AlertDialog
-import com.miad.commons.R
-import com.miad.commons.extensions.getAlertDialogBuilder
-import com.miad.commons.extensions.onGlobalLayout
-import com.miad.commons.extensions.setupDialogStuff
-import com.miad.commons.models.RadioItem
+import com.adika.commons.R
+import com.adika.commons.extensions.getAlertDialogBuilder
+import com.adika.commons.extensions.onGlobalLayout
+import com.adika.commons.extensions.setupDialogStuff
+import com.adika.commons.models.RadioItem
 import kotlinx.android.synthetic.main.dialog_radio_group.view.*
 
 class RadioGroupDialog(

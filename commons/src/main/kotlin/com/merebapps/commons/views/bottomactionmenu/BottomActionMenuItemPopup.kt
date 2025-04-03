@@ -1,4 +1,4 @@
-package com.miad.commons.views.bottomactionmenu
+package com.adika.commons.views.bottomactionmenu
 
 import android.content.Context
 import android.graphics.Color
@@ -11,10 +11,10 @@ import android.widget.ListView
 import android.widget.PopupWindow
 import androidx.core.content.ContextCompat
 import androidx.core.widget.PopupWindowCompat
-import com.miad.commons.R
-import com.miad.commons.extensions.applyColorFilter
-import com.miad.commons.extensions.windowManager
-import com.miad.commons.helpers.isRPlus
+import com.adika.commons.R
+import com.adika.commons.extensions.applyColorFilter
+import com.adika.commons.extensions.windowManager
+import com.adika.commons.helpers.isRPlus
 import kotlinx.android.synthetic.main.item_action_mode_popup.view.cab_item
 
 class BottomActionMenuItemPopup(

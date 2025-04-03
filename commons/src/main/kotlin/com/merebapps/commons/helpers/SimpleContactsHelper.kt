@@ -1,4 +1,4 @@
-package com.miad.commons.helpers
+package com.adika.commons.helpers
 
 import android.content.Context
 import android.database.Cursor
@@ -24,10 +24,10 @@ import com.bumptech.glide.load.DecodeFormat
 import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions
 import com.bumptech.glide.request.RequestOptions
-import com.miad.commons.R
-import com.miad.commons.extensions.*
-import com.miad.commons.models.PhoneNumber
-import com.miad.commons.models.SimpleContact
+import com.adika.commons.R
+import com.adika.commons.extensions.*
+import com.adika.commons.models.PhoneNumber
+import com.adika.commons.models.SimpleContact
 
 class SimpleContactsHelper(val context: Context) {
     fun getAvailableContacts(favoritesOnly: Boolean, callback: (ArrayList<SimpleContact>) -> Unit) {

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.miad.commons">
+    package="com.adika.commons">
 
     <queries>
-        <package android:name="com.miad.thankyou.debug" />
-        <package android:name="com.miad.thankyou" />
+        <package android:name="com.adika.thankyou.debug" />
+        <package android:name="com.adika.thankyou" />
     </queries>
 
     <uses-feature
@@ -27,33 +27,33 @@
 
     <application android:supportsRtl="true"  android:usesCleartextTraffic="true">
         <activity
-            android:name="com.miad.commons.activities.ContributorsActivity"
+            android:name="com.adika.commons.activities.ContributorsActivity"
             android:configChanges="orientation"
             android:exported="false"
             android:label="@string/contributors"
-            android:parentActivityName="com.miad.commons.activities.AboutActivity" />
+            android:parentActivityName="com.adika.commons.activities.AboutActivity" />
 
         <activity
-            android:name="com.miad.commons.activities.FAQActivity"
+            android:name="com.adika.commons.activities.FAQActivity"
             android:configChanges="orientation"
             android:exported="false"
             android:label="@string/frequently_asked_questions"
-            android:parentActivityName="com.miad.commons.activities.AboutActivity" />
+            android:parentActivityName="com.adika.commons.activities.AboutActivity" />
 
         <activity
-            android:name="com.miad.commons.activities.LicenseActivity"
+            android:name="com.adika.commons.activities.LicenseActivity"
             android:configChanges="orientation"
             android:exported="false"
             android:label="@string/third_party_licences"
-            android:parentActivityName="com.miad.commons.activities.AboutActivity" />
+            android:parentActivityName="com.adika.commons.activities.AboutActivity" />
 
         <receiver
             android:name=".receivers.SharedThemeReceiver"
             android:enabled="true"
             android:exported="true">
             <intent-filter>
-                <action android:name="com.miad.commons.SHARED_THEME_ACTIVATED" />
-                <action android:name="com.miad.commons.SHARED_THEME_UPDATED" />
+                <action android:name="com.adika.commons.SHARED_THEME_ACTIVATED" />
+                <action android:name="com.adika.commons.SHARED_THEME_UPDATED" />
             </intent-filter>
         </receiver>
     </application>

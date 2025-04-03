@@ -1,4 +1,4 @@
-package com.miad.commons.views
+package com.adika.commons.views
 
 import android.content.Context
 import android.content.res.ColorStateList
@@ -11,9 +11,9 @@ import android.widget.HorizontalScrollView
 import android.widget.LinearLayout
 import androidx.core.content.ContextCompat
 import androidx.core.view.ViewCompat
-import com.miad.commons.R
-import com.miad.commons.extensions.*
-import com.miad.commons.models.FileDirItem
+import com.adika.commons.R
+import com.adika.commons.extensions.*
+import com.adika.commons.models.FileDirItem
 import kotlinx.android.synthetic.main.item_breadcrumb.view.*
 
 class Breadcrumbs(context: Context, attrs: AttributeSet) : HorizontalScrollView(context, attrs) {

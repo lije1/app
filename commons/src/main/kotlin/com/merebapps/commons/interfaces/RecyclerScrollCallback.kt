@@ -1,4 +1,4 @@
-package com.miad.commons.interfaces
+package com.adika.commons.interfaces
 
 interface RecyclerScrollCallback {
     fun onScrolled(scrollY: Int)

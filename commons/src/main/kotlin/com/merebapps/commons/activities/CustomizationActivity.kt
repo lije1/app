@@ -1,18 +1,18 @@
-package com.miad.commons.activities
+package com.adika.commons.activities
 
 import android.content.Intent
 import android.graphics.Color
 import android.graphics.drawable.LayerDrawable
 import android.graphics.drawable.RippleDrawable
 import android.os.Bundle
-import com.miad.commons.R
-import com.miad.commons.dialogs.*
-import com.miad.commons.extensions.*
-import com.miad.commons.helpers.*
-import com.miad.commons.models.MyTheme
-import com.miad.commons.models.RadioItem
-import com.miad.commons.models.SharedTheme
-import com.miad.commons.views.MyTextView
+import com.adika.commons.R
+import com.adika.commons.dialogs.*
+import com.adika.commons.extensions.*
+import com.adika.commons.helpers.*
+import com.adika.commons.models.MyTheme
+import com.adika.commons.models.RadioItem
+import com.adika.commons.models.SharedTheme
+import com.adika.commons.views.MyTextView
 import kotlinx.android.synthetic.main.activity_customization.*
 
 class CustomizationActivity : BaseSimpleActivity() {
@@ -55,7 +55,7 @@ class CustomizationActivity : BaseSimpleActivity() {
 
         updateMaterialActivityViews(customization_coordinator, customization_holder, useTransparentNavigation = true, useTopSearchMenu = false)
 
-        isThankYou = packageName.removeSuffix(".debug") == "com.miad.thankyou"
+        isThankYou = packageName.removeSuffix(".debug") == "com.adika.thankyou"
         initColorVariables()
 
         if (isThankYouInstalled()) {
@@ -535,7 +535,7 @@ class CustomizationActivity : BaseSimpleActivity() {
     }
 
     private fun pickPrimaryColor() {
-        if (!packageName.startsWith("com.miad.", true) && baseConfig.appRunCount > 50) {
+        if (!packageName.startsWith("com.adika.", true) && baseConfig.appRunCount > 50) {
             finish()
             return
         }

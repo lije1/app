@@ -1,4 +1,4 @@
-package com.miad.commons.overloads
+package com.adika.commons.overloads
 
 operator fun String.times(x: Int): String {
     val stringBuilder = StringBuilder()

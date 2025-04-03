@@ -1,13 +1,13 @@
-package com.miad.commons.dialogs
+package com.adika.commons.dialogs
 
 import android.app.Activity
 import android.text.format.DateFormat
-import com.miad.commons.R
-import com.miad.commons.R.id.*
-import com.miad.commons.extensions.baseConfig
-import com.miad.commons.extensions.getAlertDialogBuilder
-import com.miad.commons.extensions.setupDialogStuff
-import com.miad.commons.helpers.*
+import com.adika.commons.R
+import com.adika.commons.R.id.*
+import com.adika.commons.extensions.baseConfig
+import com.adika.commons.extensions.getAlertDialogBuilder
+import com.adika.commons.extensions.setupDialogStuff
+import com.adika.commons.helpers.*
 import kotlinx.android.synthetic.main.dialog_change_date_time_format.view.*
 import java.util.*
 

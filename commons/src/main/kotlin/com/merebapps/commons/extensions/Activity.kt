@@ -1,4 +1,4 @@
-package com.miad.commons.extensions
+package com.adika.commons.extensions
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -36,13 +36,13 @@ import androidx.core.view.WindowInsetsCompat
 import androidx.documentfile.provider.DocumentFile
 import androidx.fragment.app.FragmentActivity
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import com.miad.commons.R
-import com.miad.commons.activities.BaseSimpleActivity
-import com.miad.commons.dialogs.*
-import com.miad.commons.dialogs.WritePermissionDialog.Mode
-import com.miad.commons.helpers.*
-import com.miad.commons.models.*
-import com.miad.commons.views.MyTextView
+import com.adika.commons.R
+import com.adika.commons.activities.BaseSimpleActivity
+import com.adika.commons.dialogs.*
+import com.adika.commons.dialogs.WritePermissionDialog.Mode
+import com.adika.commons.helpers.*
+import com.adika.commons.models.*
+import com.adika.commons.views.MyTextView
 import kotlinx.android.synthetic.main.dialog_title.view.*
 import java.io.*
 import java.util.*
@@ -292,7 +292,7 @@ fun BaseSimpleActivity.showOTGPermissionDialog(path: String) {
 fun Activity.launchPurchaseThankYouIntent() {
     hideKeyboard()
     try {
-       // launchViewIntent("market://details?id=com.miad.thankyou")
+       // launchViewIntent("market://details?id=com.adika.thankyou")
     } catch (ignored: Exception) {
         launchViewIntent(getString(R.string.thank_you_url))
     }
@@ -308,7 +308,7 @@ fun Activity.launchUpgradeToProIntent() {
 }
 
 fun Activity.launchMoreAppsFromUsIntent() {
-    launchViewIntent("https://play.google.com/store/apps/dev?id=miad+tech")
+    launchViewIntent("https://play.google.com/store/apps/dev?id=adika+tech")
 }
 
 fun Activity.launchViewIntent(id: Int) = launchViewIntent(getString(id))
@@ -331,7 +331,7 @@ fun Activity.launchViewIntent(url: String) {
 fun Activity.redirectToRateUs() {
     hideKeyboard()
     try {
-        launchViewIntent("market://details?id=id=miad+tech")
+        launchViewIntent("market://details?id=id=adika+tech")
     } catch (ignored: ActivityNotFoundException) {
         launchViewIntent(getStoreUrl())
     }
@@ -506,7 +506,7 @@ fun Activity.openPathIntent(
             setDataAndType(newUri, mimeType)
             addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
 
-            /*if (applicationId == "com.miad.gallery.pro" || applicationId == "com.miad.gallery.pro.debug") {
+            /*if (applicationId == "com.adika.gallery.pro" || applicationId == "com.adika.gallery.pro.debug") {
                 putExtra(IS_FROM_GALLERY, true)
             }*/
 

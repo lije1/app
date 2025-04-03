@@ -1,10 +1,10 @@
-package com.miad.commons.dialogs
+package com.adika.commons.dialogs
 
 import android.app.Activity
 import android.text.Html
 import android.text.method.LinkMovementMethod
-import com.miad.commons.R
-import com.miad.commons.extensions.*
+import com.adika.commons.R
+import com.adika.commons.extensions.*
 import kotlinx.android.synthetic.main.dialog_purchase_thank_you.view.*
 
 class PurchaseThankYouDialog(val activity: Activity) {

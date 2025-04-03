@@ -1,16 +1,16 @@
-package com.miad.commons.dialogs
+package com.adika.commons.dialogs
 
 import android.app.Activity
 import android.view.LayoutInflater
 import androidx.appcompat.app.AlertDialog
 import androidx.biometric.auth.AuthPromptHost
 import androidx.fragment.app.FragmentActivity
-import com.miad.commons.R
-import com.miad.commons.adapters.PasswordTypesAdapter
-import com.miad.commons.extensions.*
-import com.miad.commons.helpers.*
-import com.miad.commons.interfaces.HashListener
-import com.miad.commons.views.MyDialogViewPager
+import com.adika.commons.R
+import com.adika.commons.adapters.PasswordTypesAdapter
+import com.adika.commons.extensions.*
+import com.adika.commons.helpers.*
+import com.adika.commons.interfaces.HashListener
+import com.adika.commons.views.MyDialogViewPager
 import kotlinx.android.synthetic.main.dialog_security.view.*
 
 class SecurityDialog(

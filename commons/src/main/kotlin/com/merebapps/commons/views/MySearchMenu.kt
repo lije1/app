@@ -1,14 +1,14 @@
-package com.miad.commons.views
+package com.adika.commons.views
 
 import android.app.Activity
 import android.content.Context
 import android.util.AttributeSet
 import com.google.android.material.appbar.AppBarLayout
-import com.miad.commons.R
-import com.miad.commons.activities.BaseSimpleActivity
-import com.miad.commons.extensions.*
-import com.miad.commons.helpers.LOWER_ALPHA
-import com.miad.commons.helpers.MEDIUM_ALPHA
+import com.adika.commons.R
+import com.adika.commons.activities.BaseSimpleActivity
+import com.adika.commons.extensions.*
+import com.adika.commons.helpers.LOWER_ALPHA
+import com.adika.commons.helpers.MEDIUM_ALPHA
 import kotlinx.android.synthetic.main.menu_search.view.*
 
 class MySearchMenu(context: Context, attrs: AttributeSet) : AppBarLayout(context, attrs) {

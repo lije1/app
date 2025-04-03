@@ -1,12 +1,12 @@
-package com.miad.commons.dialogs
+package com.adika.commons.dialogs
 
 import android.app.Activity
 import android.text.Html
 import android.text.method.LinkMovementMethod
 import android.view.View
 import androidx.appcompat.app.AlertDialog
-import com.miad.commons.R
-import com.miad.commons.extensions.*
+import com.adika.commons.R
+import com.adika.commons.extensions.*
 import kotlinx.android.synthetic.main.dialog_feature_locked.view.*
 
 class FeatureLockedDialog(val activity: Activity, val callback: () -> Unit) {

@@ -1,4 +1,4 @@
-package com.miad.commons.fragments
+package com.adika.commons.fragments
 
 import android.graphics.drawable.LayerDrawable
 import android.os.Bundle
@@ -7,8 +7,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.core.content.res.ResourcesCompat
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
-import com.miad.commons.R
-import com.miad.commons.extensions.*
+import com.adika.commons.R
+import com.adika.commons.extensions.*
 import kotlinx.android.synthetic.main.dialog_bottom_sheet.view.*
 
 abstract class BaseBottomSheetDialogFragment : BottomSheetDialogFragment() {

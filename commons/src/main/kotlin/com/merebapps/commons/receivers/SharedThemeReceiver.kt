@@ -1,12 +1,12 @@
-package com.miad.commons.receivers
+package com.adika.commons.receivers
 
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
-import com.miad.commons.extensions.baseConfig
-import com.miad.commons.extensions.checkAppIconColor
-import com.miad.commons.extensions.getSharedTheme
-import com.miad.commons.helpers.MyContentProvider
+import com.adika.commons.extensions.baseConfig
+import com.adika.commons.extensions.checkAppIconColor
+import com.adika.commons.extensions.getSharedTheme
+import com.adika.commons.helpers.MyContentProvider
 
 class SharedThemeReceiver : BroadcastReceiver() {
     override fun onReceive(context: Context, intent: Intent) {

@@ -1,4 +1,4 @@
-package com.miad.commons.adapters
+package com.adika.commons.adapters
 
 import android.content.pm.PackageManager
 import android.graphics.drawable.Drawable
@@ -13,12 +13,12 @@ import com.bumptech.glide.load.resource.bitmap.RoundedCorners
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions.withCrossFade
 import com.bumptech.glide.request.RequestOptions
 import com.qtalk.recyclerviewfastscroller.RecyclerViewFastScroller
-import com.miad.commons.R
-import com.miad.commons.activities.BaseSimpleActivity
-import com.miad.commons.extensions.*
-import com.miad.commons.helpers.getFilePlaceholderDrawables
-import com.miad.commons.models.FileDirItem
-import com.miad.commons.views.MyRecyclerView
+import com.adika.commons.R
+import com.adika.commons.activities.BaseSimpleActivity
+import com.adika.commons.extensions.*
+import com.adika.commons.helpers.getFilePlaceholderDrawables
+import com.adika.commons.models.FileDirItem
+import com.adika.commons.views.MyRecyclerView
 import kotlinx.android.synthetic.main.item_filepicker_list.view.*
 import java.util.*
 

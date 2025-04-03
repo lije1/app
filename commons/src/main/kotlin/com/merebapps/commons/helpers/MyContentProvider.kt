@@ -1,14 +1,14 @@
-package com.miad.commons.helpers
+package com.adika.commons.helpers
 
 import android.content.ContentValues
 import android.net.Uri
-import com.miad.commons.models.SharedTheme
+import com.adika.commons.models.SharedTheme
 
 class MyContentProvider {
     companion object {
-        private const val AUTHORITY = "com.miad.commons.provider"
-        const val SHARED_THEME_ACTIVATED = "com.miad.commons.SHARED_THEME_ACTIVATED"
-        const val SHARED_THEME_UPDATED = "com.miad.commons.SHARED_THEME_UPDATED"
+        private const val AUTHORITY = "com.adika.commons.provider"
+        const val SHARED_THEME_ACTIVATED = "com.adika.commons.SHARED_THEME_ACTIVATED"
+        const val SHARED_THEME_UPDATED = "com.adika.commons.SHARED_THEME_UPDATED"
         val MY_CONTENT_URI = Uri.parse("content://$AUTHORITY/themes")
 
         const val COL_ID = "_id"    // used in Simple Thank You

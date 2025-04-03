@@ -1,4 +1,4 @@
-package com.miad.commons.extensions
+package com.adika.commons.extensions
 
 import android.content.Context
 import android.graphics.Bitmap
@@ -13,7 +13,7 @@ import android.text.TextUtils
 import android.text.style.ForegroundColorSpan
 import android.widget.TextView
 import com.bumptech.glide.signature.ObjectKey
-import com.miad.commons.helpers.*
+import com.adika.commons.helpers.*
 import org.joda.time.DateTime
 import org.joda.time.Years
 import org.joda.time.format.DateTimeFormat

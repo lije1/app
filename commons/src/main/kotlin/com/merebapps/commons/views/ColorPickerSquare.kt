@@ -1,4 +1,4 @@
-package com.miad.commons.views
+package com.adika.commons.views
 
 import android.annotation.SuppressLint
 import android.content.Context

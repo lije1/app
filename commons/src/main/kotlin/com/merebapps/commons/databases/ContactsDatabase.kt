@@ -1,4 +1,4 @@
-package com.miad.commons.databases
+package com.adika.commons.databases
 
 import android.content.Context
 import androidx.room.Database
@@ -7,14 +7,14 @@ import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
 import androidx.room.migration.Migration
 import androidx.sqlite.db.SupportSQLiteDatabase
-import com.miad.commons.helpers.Converters
-import com.miad.commons.helpers.FIRST_CONTACT_ID
-import com.miad.commons.helpers.FIRST_GROUP_ID
-import com.miad.commons.helpers.getEmptyLocalContact
-import com.miad.commons.interfaces.ContactsDao
-import com.miad.commons.models.contacts.Group
-import com.miad.commons.models.contacts.LocalContact
-import com.miad.commons.interfaces.GroupsDao
+import com.adika.commons.helpers.Converters
+import com.adika.commons.helpers.FIRST_CONTACT_ID
+import com.adika.commons.helpers.FIRST_GROUP_ID
+import com.adika.commons.helpers.getEmptyLocalContact
+import com.adika.commons.interfaces.ContactsDao
+import com.adika.commons.models.contacts.Group
+import com.adika.commons.models.contacts.LocalContact
+import com.adika.commons.interfaces.GroupsDao
 import java.util.concurrent.Executors
 
 @Database(entities = [LocalContact::class, Group::class], version = 3)

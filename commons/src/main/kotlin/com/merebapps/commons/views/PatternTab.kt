@@ -1,4 +1,4 @@
-package com.miad.commons.views
+package com.adika.commons.views
 
 import android.content.Context
 import android.os.Handler
@@ -9,11 +9,11 @@ import androidx.biometric.auth.AuthPromptHost
 import com.andrognito.patternlockview.PatternLockView
 import com.andrognito.patternlockview.listener.PatternLockViewListener
 import com.andrognito.patternlockview.utils.PatternLockUtils
-import com.miad.commons.R
-import com.miad.commons.extensions.*
-import com.miad.commons.helpers.PROTECTION_PATTERN
-import com.miad.commons.interfaces.HashListener
-import com.miad.commons.interfaces.SecurityTab
+import com.adika.commons.R
+import com.adika.commons.extensions.*
+import com.adika.commons.helpers.PROTECTION_PATTERN
+import com.adika.commons.interfaces.HashListener
+import com.adika.commons.interfaces.SecurityTab
 import kotlinx.android.synthetic.main.tab_pattern.view.*
 
 class PatternTab(context: Context, attrs: AttributeSet) : RelativeLayout(context, attrs), SecurityTab {

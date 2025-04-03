@@ -1,4 +1,4 @@
-package com.miad.commons.asynctasks
+package com.adika.commons.asynctasks
 
 import android.app.NotificationChannel
 import android.app.NotificationManager
@@ -9,15 +9,15 @@ import android.provider.MediaStore
 import androidx.core.app.NotificationCompat
 import androidx.core.util.Pair
 import androidx.documentfile.provider.DocumentFile
-import com.miad.commons.R
-import com.miad.commons.activities.BaseSimpleActivity
-import com.miad.commons.extensions.*
-import com.miad.commons.helpers.CONFLICT_KEEP_BOTH
-import com.miad.commons.helpers.CONFLICT_SKIP
-import com.miad.commons.helpers.getConflictResolution
-import com.miad.commons.helpers.isOreoPlus
-import com.miad.commons.interfaces.CopyMoveListener
-import com.miad.commons.models.FileDirItem
+import com.adika.commons.R
+import com.adika.commons.activities.BaseSimpleActivity
+import com.adika.commons.extensions.*
+import com.adika.commons.helpers.CONFLICT_KEEP_BOTH
+import com.adika.commons.helpers.CONFLICT_SKIP
+import com.adika.commons.helpers.getConflictResolution
+import com.adika.commons.helpers.isOreoPlus
+import com.adika.commons.interfaces.CopyMoveListener
+import com.adika.commons.models.FileDirItem
 import java.io.File
 import java.io.InputStream
 import java.io.OutputStream

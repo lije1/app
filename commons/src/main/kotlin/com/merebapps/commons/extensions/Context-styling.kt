@@ -1,4 +1,4 @@
-package com.miad.commons.extensions
+package com.adika.commons.extensions
 
 import android.annotation.SuppressLint
 import android.content.ComponentName
@@ -8,10 +8,10 @@ import android.content.res.Configuration
 import android.graphics.Color
 import android.view.ViewGroup
 import androidx.loader.content.CursorLoader
-import com.miad.commons.R
-import com.miad.commons.helpers.*
-import com.miad.commons.models.SharedTheme
-import com.miad.commons.views.*
+import com.adika.commons.R
+import com.adika.commons.helpers.*
+import com.adika.commons.models.SharedTheme
+import com.adika.commons.views.*
 
 // handle system default theme (Material You) specially as the color is taken from the system, not hardcoded by us
 fun Context.getProperTextColor() = if (baseConfig.isUsingSystemTheme) {

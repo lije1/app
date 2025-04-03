@@ -1,6 +1,6 @@
-package com.miad.commons.extensions
+package com.adika.commons.extensions
 
-import com.miad.commons.helpers.MD5
+import com.adika.commons.helpers.MD5
 import java.io.InputStream
 import java.security.MessageDigest
 

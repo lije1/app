@@ -1,4 +1,4 @@
-package com.miad.commons.extensions
+package com.adika.commons.extensions
 
 import android.content.Context
 import android.content.res.ColorStateList
@@ -7,7 +7,7 @@ import android.media.ExifInterface
 import android.text.format.DateFormat
 import android.text.format.DateUtils
 import android.text.format.Time
-import com.miad.commons.helpers.DARK_GREY
+import com.adika.commons.helpers.DARK_GREY
 import java.text.DecimalFormat
 import java.util.*
 

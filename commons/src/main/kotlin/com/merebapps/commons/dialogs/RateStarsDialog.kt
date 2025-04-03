@@ -1,9 +1,9 @@
-package com.miad.commons.dialogs
+package com.adika.commons.dialogs
 
 import android.app.Activity
 import androidx.appcompat.app.AlertDialog
-import com.miad.commons.R
-import com.miad.commons.extensions.*
+import com.adika.commons.R
+import com.adika.commons.extensions.*
 import kotlinx.android.synthetic.main.dialog_rate_stars.view.*
 
 class RateStarsDialog(val activity: Activity) {

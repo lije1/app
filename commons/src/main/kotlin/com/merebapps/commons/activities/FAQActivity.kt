@@ -1,19 +1,19 @@
-package com.miad.commons.activities
+package com.adika.commons.activities
 
 import android.os.Bundle
 import android.text.Html
 import android.text.method.LinkMovementMethod
 import android.view.LayoutInflater
-import com.miad.commons.R
-import com.miad.commons.extensions.getProperBackgroundColor
-import com.miad.commons.extensions.getProperPrimaryColor
-import com.miad.commons.extensions.getProperTextColor
-import com.miad.commons.extensions.removeUnderlines
-import com.miad.commons.helpers.APP_FAQ
-import com.miad.commons.helpers.APP_ICON_IDS
-import com.miad.commons.helpers.APP_LAUNCHER_NAME
-import com.miad.commons.helpers.NavigationIcon
-import com.miad.commons.models.FAQItem
+import com.adika.commons.R
+import com.adika.commons.extensions.getProperBackgroundColor
+import com.adika.commons.extensions.getProperPrimaryColor
+import com.adika.commons.extensions.getProperTextColor
+import com.adika.commons.extensions.removeUnderlines
+import com.adika.commons.helpers.APP_FAQ
+import com.adika.commons.helpers.APP_ICON_IDS
+import com.adika.commons.helpers.APP_LAUNCHER_NAME
+import com.adika.commons.helpers.NavigationIcon
+import com.adika.commons.models.FAQItem
 import kotlinx.android.synthetic.main.activity_faq.*
 import kotlinx.android.synthetic.main.item_faq.view.*
 

@@ -1,4 +1,4 @@
-package com.miad.commons.models
+package com.adika.commons.models
 
 import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize

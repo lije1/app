@@ -1,4 +1,4 @@
-package com.miad.commons.views.bottomactionmenu
+package com.adika.commons.views.bottomactionmenu
 
 import android.view.View
 import androidx.annotation.DrawableRes

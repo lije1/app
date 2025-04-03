@@ -1,11 +1,11 @@
-package com.miad.commons.activities
+package com.adika.commons.activities
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.miad.commons.R
-import com.miad.commons.extensions.*
-import com.miad.commons.helpers.SIDELOADING_TRUE
-import com.miad.commons.helpers.SIDELOADING_UNCHECKED
+import com.adika.commons.R
+import com.adika.commons.extensions.*
+import com.adika.commons.helpers.SIDELOADING_TRUE
+import com.adika.commons.helpers.SIDELOADING_UNCHECKED
 
 abstract class BaseSplashActivity : AppCompatActivity() {
     abstract fun initActivity()

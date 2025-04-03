@@ -1,11 +1,11 @@
-package com.miad.commons.activities
+package com.adika.commons.activities
 
 import android.os.Bundle
 import android.view.LayoutInflater
-import com.miad.commons.R
-import com.miad.commons.extensions.*
-import com.miad.commons.helpers.*
-import com.miad.commons.models.License
+import com.adika.commons.R
+import com.adika.commons.extensions.*
+import com.adika.commons.helpers.*
+import com.adika.commons.models.License
 import kotlinx.android.synthetic.main.activity_license.*
 import kotlinx.android.synthetic.main.item_license.view.*
 

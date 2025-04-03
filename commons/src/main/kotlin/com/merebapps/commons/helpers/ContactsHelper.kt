@@ -1,4 +1,4 @@
-package com.miad.commons.helpers
+package com.adika.commons.helpers
 
 import android.accounts.Account
 import android.accounts.AccountManager
@@ -12,11 +12,11 @@ import android.provider.ContactsContract.*
 import android.provider.MediaStore
 import android.text.TextUtils
 import android.util.SparseArray
-import com.miad.commons.R
-import com.miad.commons.extensions.*
-import com.miad.commons.models.PhoneNumber
-import com.miad.commons.models.contacts.*
-import com.miad.commons.overloads.times
+import com.adika.commons.R
+import com.adika.commons.extensions.*
+import com.adika.commons.models.PhoneNumber
+import com.adika.commons.models.contacts.*
+import com.adika.commons.overloads.times
 import java.util.Locale
 
 class ContactsHelper(val context: Context) {

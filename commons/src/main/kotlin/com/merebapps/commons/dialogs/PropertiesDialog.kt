@@ -1,4 +1,4 @@
-package com.miad.commons.dialogs
+package com.adika.commons.dialogs
 
 import android.app.Activity
 import android.content.res.Resources
@@ -12,11 +12,11 @@ import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.appcompat.app.AlertDialog
 import androidx.exifinterface.media.ExifInterface
-import com.miad.commons.R
-import com.miad.commons.activities.BaseSimpleActivity
-import com.miad.commons.extensions.*
-import com.miad.commons.helpers.*
-import com.miad.commons.models.FileDirItem
+import com.adika.commons.R
+import com.adika.commons.activities.BaseSimpleActivity
+import com.adika.commons.extensions.*
+import com.adika.commons.helpers.*
+import com.adika.commons.models.FileDirItem
 import kotlinx.android.synthetic.main.dialog_properties.view.*
 import kotlinx.android.synthetic.main.item_property.view.*
 import java.io.File
@@ -181,7 +181,7 @@ class PropertiesDialog() {
                 return
             }
 
-            if (mActivity.baseConfig.appId.removeSuffix(".debug") == "com.miad.filemanager.pro") {
+            if (mActivity.baseConfig.appId.removeSuffix(".debug") == "com.adika.filemanager.pro") {
                 addProperty(R.string.md5, "…", R.id.properties_md5)
                 ensureBackgroundThread {
                     val md5 = if (mActivity.isRestrictedSAFOnlyRoot(path)) {

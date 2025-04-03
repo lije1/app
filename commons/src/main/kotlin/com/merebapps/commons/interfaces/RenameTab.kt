@@ -1,6 +1,6 @@
-package com.miad.commons.interfaces
+package com.adika.commons.interfaces
 
-import com.miad.commons.activities.BaseSimpleActivity
+import com.adika.commons.activities.BaseSimpleActivity
 
 interface RenameTab {
     fun initTab(activity: BaseSimpleActivity, paths: ArrayList<String>)

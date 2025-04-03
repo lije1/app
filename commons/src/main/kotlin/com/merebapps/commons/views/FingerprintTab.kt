@@ -1,4 +1,4 @@
-package com.miad.commons.views
+package com.adika.commons.views
 
 import android.content.Context
 import android.content.Intent
@@ -10,11 +10,11 @@ import androidx.biometric.auth.AuthPromptHost
 import com.github.ajalt.reprint.core.AuthenticationFailureReason
 import com.github.ajalt.reprint.core.AuthenticationListener
 import com.github.ajalt.reprint.core.Reprint
-import com.miad.commons.R
-import com.miad.commons.extensions.*
-import com.miad.commons.helpers.PROTECTION_FINGERPRINT
-import com.miad.commons.interfaces.HashListener
-import com.miad.commons.interfaces.SecurityTab
+import com.adika.commons.R
+import com.adika.commons.extensions.*
+import com.adika.commons.helpers.PROTECTION_FINGERPRINT
+import com.adika.commons.interfaces.HashListener
+import com.adika.commons.interfaces.SecurityTab
 import kotlinx.android.synthetic.main.tab_fingerprint.view.*
 
 class FingerprintTab(context: Context, attrs: AttributeSet) : RelativeLayout(context, attrs), SecurityTab {

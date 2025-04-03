@@ -1,8 +1,8 @@
-package com.miad.commons.extensions
+package com.adika.commons.extensions
 
 import android.content.Context
-import com.miad.commons.helpers.*
-import com.miad.commons.models.FileDirItem
+import com.adika.commons.helpers.*
+import com.adika.commons.models.FileDirItem
 import java.io.File
 import java.util.*
 

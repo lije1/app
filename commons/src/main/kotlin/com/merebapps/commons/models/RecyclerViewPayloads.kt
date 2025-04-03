@@ -1,3 +1,3 @@
-package com.miad.commons.models
+package com.adika.commons.models
 
 data class RecyclerSelectionPayload(val selected: Boolean)

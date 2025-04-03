@@ -1,4 +1,4 @@
-package com.miad.commons.extensions
+package com.adika.commons.extensions
 
 import android.content.Context
 import android.net.Uri
@@ -6,10 +6,10 @@ import android.os.Environment
 import android.provider.DocumentsContract
 import android.provider.MediaStore
 import androidx.documentfile.provider.DocumentFile
-import com.miad.commons.helpers.EXTERNAL_STORAGE_PROVIDER_AUTHORITY
-import com.miad.commons.helpers.isRPlus
-import com.miad.commons.helpers.isSPlus
-import com.miad.commons.models.FileDirItem
+import com.adika.commons.helpers.EXTERNAL_STORAGE_PROVIDER_AUTHORITY
+import com.adika.commons.helpers.isRPlus
+import com.adika.commons.helpers.isSPlus
+import com.adika.commons.models.FileDirItem
 import java.io.File
 
 private const val DOWNLOAD_DIR = "Download"

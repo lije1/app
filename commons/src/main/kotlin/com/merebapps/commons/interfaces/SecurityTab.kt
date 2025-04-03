@@ -1,7 +1,7 @@
-package com.miad.commons.interfaces
+package com.adika.commons.interfaces
 
 import androidx.biometric.auth.AuthPromptHost
-import com.miad.commons.views.MyScrollView
+import com.adika.commons.views.MyScrollView
 
 interface SecurityTab {
     fun initTab(

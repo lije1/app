@@ -1,11 +1,11 @@
-package com.miad.commons.helpers
+package com.adika.commons.helpers
 
 import android.content.Context
 import android.text.format.DateFormat
-import com.miad.commons.R
-import com.miad.commons.extensions.getInternalStoragePath
-import com.miad.commons.extensions.getSDCardPath
-import com.miad.commons.extensions.getSharedPrefs
+import com.adika.commons.R
+import com.adika.commons.extensions.getInternalStoragePath
+import com.adika.commons.extensions.getSDCardPath
+import com.adika.commons.extensions.getSharedPrefs
 import java.text.SimpleDateFormat
 import java.util.*
 

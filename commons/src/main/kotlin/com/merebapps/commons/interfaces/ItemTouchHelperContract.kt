@@ -1,6 +1,6 @@
-package com.miad.commons.interfaces
+package com.adika.commons.interfaces
 
-import com.miad.commons.adapters.MyRecyclerViewAdapter
+import com.adika.commons.adapters.MyRecyclerViewAdapter
 
 interface ItemTouchHelperContract {
     fun onRowMoved(fromPosition: Int, toPosition: Int)

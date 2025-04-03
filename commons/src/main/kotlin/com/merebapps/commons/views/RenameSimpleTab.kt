@@ -1,16 +1,16 @@
-package com.miad.commons.views
+package com.adika.commons.views
 
 import android.content.ContentValues
 import android.content.Context
 import android.provider.MediaStore
 import android.util.AttributeSet
 import android.widget.RelativeLayout
-import com.miad.commons.R
-import com.miad.commons.activities.BaseSimpleActivity
-import com.miad.commons.extensions.*
-import com.miad.commons.interfaces.RenameTab
-import com.miad.commons.models.Android30RenameFormat
-import com.miad.commons.models.FileDirItem
+import com.adika.commons.R
+import com.adika.commons.activities.BaseSimpleActivity
+import com.adika.commons.extensions.*
+import com.adika.commons.interfaces.RenameTab
+import com.adika.commons.models.Android30RenameFormat
+import com.adika.commons.models.FileDirItem
 import kotlinx.android.synthetic.main.tab_rename_simple.view.*
 import java.io.File
 

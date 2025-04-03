@@ -1,11 +1,11 @@
-package com.miad.commons.dialogs
+package com.adika.commons.dialogs
 
 import androidx.appcompat.app.AlertDialog
-import com.miad.commons.R
-import com.miad.commons.activities.BaseSimpleActivity
-import com.miad.commons.extensions.*
-import com.miad.commons.helpers.BLOCKED_NUMBERS_EXPORT_EXTENSION
-import com.miad.commons.helpers.ensureBackgroundThread
+import com.adika.commons.R
+import com.adika.commons.activities.BaseSimpleActivity
+import com.adika.commons.extensions.*
+import com.adika.commons.helpers.BLOCKED_NUMBERS_EXPORT_EXTENSION
+import com.adika.commons.helpers.ensureBackgroundThread
 import kotlinx.android.synthetic.main.dialog_export_blocked_numbers.view.*
 import java.io.File
 

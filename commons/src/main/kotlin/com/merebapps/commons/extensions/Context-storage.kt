@@ -1,4 +1,4 @@
-package com.miad.commons.extensions
+package com.adika.commons.extensions
 
 import android.content.ContentUris
 import android.content.ContentValues
@@ -20,9 +20,9 @@ import androidx.annotation.RequiresApi
 import androidx.core.content.FileProvider
 import androidx.core.net.toUri
 import androidx.documentfile.provider.DocumentFile
-import com.miad.commons.R
-import com.miad.commons.helpers.*
-import com.miad.commons.models.FileDirItem
+import com.adika.commons.R
+import com.adika.commons.helpers.*
+import com.adika.commons.models.FileDirItem
 import java.io.File
 import java.io.FileInputStream
 import java.io.InputStream

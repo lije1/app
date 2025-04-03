@@ -1,4 +1,4 @@
-package com.miad.commons.helpers
+package com.adika.commons.helpers
 
 import android.net.Uri
 import android.provider.ContactsContract.CommonDataKinds
@@ -7,13 +7,13 @@ import android.provider.ContactsContract.CommonDataKinds.Im
 import android.provider.ContactsContract.CommonDataKinds.Phone
 import android.provider.ContactsContract.CommonDataKinds.StructuredPostal
 import android.provider.MediaStore
-import com.miad.commons.R
-import com.miad.commons.activities.BaseSimpleActivity
-import com.miad.commons.extensions.getByteArray
-import com.miad.commons.extensions.getDateTimeFromDateString
-import com.miad.commons.extensions.showErrorToast
-import com.miad.commons.extensions.toast
-import com.miad.commons.models.contacts.Contact
+import com.adika.commons.R
+import com.adika.commons.activities.BaseSimpleActivity
+import com.adika.commons.extensions.getByteArray
+import com.adika.commons.extensions.getDateTimeFromDateString
+import com.adika.commons.extensions.showErrorToast
+import com.adika.commons.extensions.toast
+import com.adika.commons.models.contacts.Contact
 import ezvcard.Ezvcard
 import ezvcard.VCard
 import ezvcard.VCardVersion

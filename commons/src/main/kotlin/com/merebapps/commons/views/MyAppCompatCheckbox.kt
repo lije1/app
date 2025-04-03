@@ -1,10 +1,10 @@
-package com.miad.commons.views
+package com.adika.commons.views
 
 import android.content.Context
 import android.content.res.ColorStateList
 import android.util.AttributeSet
 import androidx.appcompat.widget.AppCompatCheckBox
-import com.miad.commons.extensions.adjustAlpha
+import com.adika.commons.extensions.adjustAlpha
 
 class MyAppCompatCheckbox : AppCompatCheckBox {
     constructor(context: Context) : super(context)

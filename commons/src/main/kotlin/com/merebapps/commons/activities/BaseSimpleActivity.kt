@@ -1,4 +1,4 @@
-package com.miad.commons.activities
+package com.adika.commons.activities
 
 import android.animation.ArgbEvaluator
 import android.animation.ValueAnimator
@@ -39,15 +39,15 @@ import androidx.core.view.ScrollingView
 import androidx.core.view.WindowInsetsCompat
 import androidx.core.widget.NestedScrollView
 import androidx.recyclerview.widget.RecyclerView
-import com.miad.commons.R
-import com.miad.commons.asynctasks.CopyMoveTask
-import com.miad.commons.dialogs.*
-import com.miad.commons.dialogs.WritePermissionDialog.Mode
-import com.miad.commons.extensions.*
-import com.miad.commons.helpers.*
-import com.miad.commons.interfaces.CopyMoveListener
-import com.miad.commons.models.FAQItem
-import com.miad.commons.models.FileDirItem
+import com.adika.commons.R
+import com.adika.commons.asynctasks.CopyMoveTask
+import com.adika.commons.dialogs.*
+import com.adika.commons.dialogs.WritePermissionDialog.Mode
+import com.adika.commons.extensions.*
+import com.adika.commons.helpers.*
+import com.adika.commons.interfaces.CopyMoveListener
+import com.adika.commons.models.FAQItem
+import com.adika.commons.models.FileDirItem
 import java.io.File
 import java.io.OutputStream
 import java.util.regex.Pattern
@@ -672,7 +672,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
     // synchronous return value determines only if we are showing the SAF dialog, callback result tells if the SD or OTG permission has been granted
     fun handleSAFDialog(path: String, callback: (success: Boolean) -> Unit): Boolean {
         hideKeyboard()
-        return if (!packageName.startsWith("com.miad")) {
+        return if (!packageName.startsWith("com.adika")) {
             callback(true)
             false
         } else if (isShowingSAFDialog(path) || isShowingOTGDialog(path)) {
@@ -686,7 +686,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
 
     fun handleSAFDialogSdk30(path: String, callback: (success: Boolean) -> Unit): Boolean {
         hideKeyboard()
-        return if (!packageName.startsWith("com.miad")) {
+        return if (!packageName.startsWith("com.adika")) {
             callback(true)
             false
         } else if (isShowingSAFDialogSdk30(path)) {
@@ -710,7 +710,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
 
     fun handleSAFCreateDocumentDialogSdk30(path: String, callback: (success: Boolean) -> Unit): Boolean {
         hideKeyboard()
-        return if (!packageName.startsWith("com.miad")) {
+        return if (!packageName.startsWith("com.adika")) {
             callback(true)
             false
         } else if (isShowingSAFCreateDocumentDialogSdk30(path)) {
@@ -724,7 +724,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
 
     fun handleAndroidSAFDialog(path: String, callback: (success: Boolean) -> Unit): Boolean {
         hideKeyboard()
-        return if (!packageName.startsWith("com.miad")) {
+        return if (!packageName.startsWith("com.adika")) {
             callback(true)
             false
         } else if (isShowingAndroidSAFDialog(path)) {
@@ -1121,7 +1121,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
     }
 
     private fun getExportSettingsFilename(): String {
-        val appName = baseConfig.appId.removeSuffix(".debug").removeSuffix(".pro").removePrefix("com.miad.")
+        val appName = baseConfig.appId.removeSuffix(".debug").removeSuffix(".pro").removePrefix("com.adika.")
         return "$appName-settings_${getCurrentFormattedDateTime()}"
     }
 

@@ -1,4 +1,4 @@
-package com.miad.commons.views.bottomactionmenu
+package com.adika.commons.views.bottomactionmenu
 
 import android.view.Gravity
 import android.view.View
@@ -11,7 +11,7 @@ import androidx.core.view.doOnLayout
 import androidx.core.view.updateLayoutParams
 import androidx.core.widget.PopupWindowCompat
 import com.google.android.material.floatingactionbutton.FloatingActionButton
-import com.miad.commons.activities.BaseSimpleActivity
+import com.adika.commons.activities.BaseSimpleActivity
 
 class BottomActionMenuPopup(private val activity: BaseSimpleActivity, items: List<BottomActionMenuItem>) {
     private val bottomActionMenuView = BottomActionMenuView(activity)

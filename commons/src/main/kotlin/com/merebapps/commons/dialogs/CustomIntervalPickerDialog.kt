@@ -1,4 +1,4 @@
-package com.miad.commons.dialogs
+package com.adika.commons.dialogs
 
 import android.app.Activity
 import android.content.DialogInterface
@@ -6,11 +6,11 @@ import android.view.KeyEvent
 import android.view.View
 import android.view.ViewGroup
 import androidx.appcompat.app.AlertDialog
-import com.miad.commons.R
-import com.miad.commons.extensions.*
-import com.miad.commons.helpers.DAY_SECONDS
-import com.miad.commons.helpers.HOUR_SECONDS
-import com.miad.commons.helpers.MINUTE_SECONDS
+import com.adika.commons.R
+import com.adika.commons.extensions.*
+import com.adika.commons.helpers.DAY_SECONDS
+import com.adika.commons.helpers.HOUR_SECONDS
+import com.adika.commons.helpers.MINUTE_SECONDS
 import kotlinx.android.synthetic.main.dialog_custom_interval_picker.view.*
 
 class CustomIntervalPickerDialog(val activity: Activity, val selectedSeconds: Int = 0, val showSeconds: Boolean = false, val callback: (minutes: Int) -> Unit) {

@@ -1,4 +1,4 @@
-package com.miad.commons.views
+package com.adika.commons.views
 
 import android.content.ContentValues
 import android.content.Context
@@ -7,13 +7,13 @@ import android.text.format.DateFormat
 import android.util.AttributeSet
 import android.widget.RelativeLayout
 import androidx.exifinterface.media.ExifInterface
-import com.miad.commons.R
-import com.miad.commons.activities.BaseSimpleActivity
-import com.miad.commons.extensions.*
-import com.miad.commons.helpers.isNougatPlus
-import com.miad.commons.interfaces.RenameTab
-import com.miad.commons.models.Android30RenameFormat
-import com.miad.commons.models.FileDirItem
+import com.adika.commons.R
+import com.adika.commons.activities.BaseSimpleActivity
+import com.adika.commons.extensions.*
+import com.adika.commons.helpers.isNougatPlus
+import com.adika.commons.interfaces.RenameTab
+import com.adika.commons.models.Android30RenameFormat
+import com.adika.commons.models.FileDirItem
 import kotlinx.android.synthetic.main.dialog_rename_items_pattern.view.*
 import java.io.File
 import java.text.SimpleDateFormat

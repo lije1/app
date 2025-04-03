@@ -1,12 +1,12 @@
-package com.miad.commons.models.contacts
+package com.adika.commons.models.contacts
 
 import android.graphics.Bitmap
 import android.provider.ContactsContract
 import android.telephony.PhoneNumberUtils
-import com.miad.commons.extensions.normalizePhoneNumber
-import com.miad.commons.extensions.normalizeString
-import com.miad.commons.helpers.*
-import com.miad.commons.models.PhoneNumber
+import com.adika.commons.extensions.normalizePhoneNumber
+import com.adika.commons.extensions.normalizeString
+import com.adika.commons.helpers.*
+import com.adika.commons.models.PhoneNumber
 
 data class Contact(
     var id: Int,

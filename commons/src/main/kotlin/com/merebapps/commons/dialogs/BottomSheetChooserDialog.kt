@@ -1,12 +1,12 @@
-package com.miad.commons.dialogs
+package com.adika.commons.dialogs
 
 import android.os.Bundle
 import android.view.ViewGroup
 import androidx.fragment.app.FragmentManager
-import com.miad.commons.R
-import com.miad.commons.adapters.setupSimpleListItem
-import com.miad.commons.fragments.BaseBottomSheetDialogFragment
-import com.miad.commons.models.SimpleListItem
+import com.adika.commons.R
+import com.adika.commons.adapters.setupSimpleListItem
+import com.adika.commons.fragments.BaseBottomSheetDialogFragment
+import com.adika.commons.models.SimpleListItem
 
 open class BottomSheetChooserDialog : BaseBottomSheetDialogFragment() {
 

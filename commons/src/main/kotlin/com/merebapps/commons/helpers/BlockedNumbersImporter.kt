@@ -1,9 +1,9 @@
-package com.miad.commons.helpers
+package com.adika.commons.helpers
 
 import android.telephony.PhoneNumberUtils
-import com.miad.commons.activities.BaseSimpleActivity
-import com.miad.commons.extensions.addBlockedNumber
-import com.miad.commons.extensions.showErrorToast
+import com.adika.commons.activities.BaseSimpleActivity
+import com.adika.commons.extensions.addBlockedNumber
+import com.adika.commons.extensions.showErrorToast
 import java.io.File
 
 class BlockedNumbersImporter(

@@ -1,11 +1,11 @@
-package com.miad.commons.models
+package com.adika.commons.models
 
 import android.content.Context
 import android.net.Uri
 import android.provider.MediaStore
 import com.bumptech.glide.signature.ObjectKey
-import com.miad.commons.extensions.*
-import com.miad.commons.helpers.*
+import com.adika.commons.extensions.*
+import com.adika.commons.helpers.*
 import java.io.File
 
 open class FileDirItem(

@@ -1,4 +1,4 @@
-package com.miad.commons.interfaces
+package com.adika.commons.interfaces
 
 import androidx.recyclerview.widget.RecyclerView
 

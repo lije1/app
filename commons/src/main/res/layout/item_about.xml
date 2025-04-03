@@ -20,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:src="@drawable/ic_question_mark_vector" />
 
-    <com.miad.commons.views.MyTextView
+    <com.adika.commons.views.MyTextView
         android:id="@+id/about_item_label"
         android:layout_width="0dp"
         android:layout_height="match_parent"

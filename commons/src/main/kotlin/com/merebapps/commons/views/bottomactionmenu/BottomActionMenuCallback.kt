@@ -1,4 +1,4 @@
-package com.miad.commons.views.bottomactionmenu
+package com.adika.commons.views.bottomactionmenu
 
 interface BottomActionMenuCallback {
     fun onItemClicked(item: BottomActionMenuItem) {}

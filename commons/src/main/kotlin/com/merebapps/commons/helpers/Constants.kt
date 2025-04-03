@@ -1,4 +1,4 @@
-package com.miad.commons.helpers
+package com.adika.commons.helpers
 
 import android.content.Context
 import android.graphics.drawable.Drawable
@@ -7,10 +7,10 @@ import android.os.Looper
 import android.provider.ContactsContract
 import android.util.Log
 import androidx.annotation.ChecksSdkIntAtLeast
-import com.miad.commons.R
-import com.miad.commons.extensions.normalizeString
-import com.miad.commons.models.contacts.LocalContact
-import com.miad.commons.overloads.times
+import com.adika.commons.R
+import com.adika.commons.extensions.normalizeString
+import com.adika.commons.models.contacts.LocalContact
+import com.adika.commons.overloads.times
 
 const val EXTERNAL_STORAGE_PROVIDER_AUTHORITY = "com.android.externalstorage.documents"
 const val EXTRA_SHOW_ADVANCED = "android.content.extra.SHOW_ADVANCED"
@@ -24,7 +24,7 @@ const val APP_ID = "app_id"
 const val APP_LAUNCHER_NAME = "app_launcher_name"
 const val REAL_FILE_PATH = "real_file_path_2"
 const val IS_FROM_GALLERY = "is_from_gallery"
-const val BROADCAST_REFRESH_MEDIA = "com.miad.REFRESH_MEDIA"
+const val BROADCAST_REFRESH_MEDIA = "com.adika.REFRESH_MEDIA"
 const val REFRESH_PATH = "refresh_path"
 const val IS_CUSTOMIZING_COLORS = "is_customizing_colors"
 const val BLOCKED_NUMBERS_EXPORT_DELIMITER = ","

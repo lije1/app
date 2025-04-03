@@ -1,4 +1,4 @@
-package com.miad.commons.extensions
+package com.adika.commons.extensions
 
 // extensions used mostly at importing app settings for now
 fun Any.toBoolean() = toString() == "true"
